@@ -1,0 +1,9 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+backend/paperlens.db
+backend/paperlens.db-journal
+backend/paperlens.db-wal
+backend/paperlens.db-shm
+backend/storage/

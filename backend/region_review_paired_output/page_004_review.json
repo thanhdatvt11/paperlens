@@ -1,0 +1,297 @@
+{
+  "scope": "PAGE_REGION_PROBE",
+  "page_number": 4,
+  "model": "qwen3:1.7b",
+  "instruction": "Đánh giá độ rõ ràng và tính chính xác trong cách diễn đạt, phù hợp với slide khóa học. Chỉ nêu vấn đề có bằng chứng trong trang.",
+  "summary": "Trang tài liệu liệt kê các vùng liên quan đến các chủ đề như Prompt Engineering, Integrations, AI Agents, Tools, và các công cụ hỗ trợ trong việc xây dựng và triển khai các hệ thống có khả năng làm việc độc lập (agentic workflows).",
+  "key_points": [
+    {
+      "point": "Prompt Engineering và Fine-tune agent instructions là các chủ đề chính trong trang tài liệu.",
+      "region_ids": [
+        "R002",
+        "R008"
+      ],
+      "evidence": [
+        {
+          "page_number": 4,
+          "region_id": "R002",
+          "block_id": "B0002",
+          "quote": "Prompt Engineering ",
+          "bbox": [
+            751.9199829101562,
+            180.52999877929688,
+            986.4920043945312,
+            207.2899932861328
+          ],
+          "source": "native",
+          "needs_review": false
+        },
+        {
+          "page_number": 4,
+          "region_id": "R008",
+          "block_id": "B0008",
+          "quote": "Fine-tune agent ",
+          "bbox": [
+            798.1400146484375,
+            262.1800231933594,
+            971.6420288085938,
+            288.9400329589844
+          ],
+          "source": "native",
+          "needs_review": false
+        },
+        {
+          "page_number": 4,
+          "region_id": "R008",
+          "block_id": "B0012",
+          "quote": "instructions",
+          "bbox": [
+            821.5399780273438,
+            290.9800109863281,
+            941.5400390625,
+            317.7400207519531
+          ],
+          "source": "native",
+          "needs_review": false
+        }
+      ]
+    },
+    {
+      "point": "Integrations và Connect to existing infrastructure là các chủ đề liên quan đến việc kết nối các hệ thống hiện có.",
+      "region_ids": [
+        "R003",
+        "R009"
+      ],
+      "evidence": [
+        {
+          "page_number": 4,
+          "region_id": "R003",
+          "block_id": "B0003",
+          "quote": "Integrations",
+          "bbox": [
+            1094.68994140625,
+            180.52999877929688,
+            1230.7935791015625,
+            207.2899932861328
+          ],
+          "source": "native",
+          "needs_review": false
+        },
+        {
+          "page_number": 4,
+          "region_id": "R009",
+          "block_id": "B0009",
+          "quote": "Connect to existing ",
+          "bbox": [
+            1077.9100341796875,
+            262.1800231933594,
+            1287.0518798828125,
+            288.9400329589844
+          ],
+          "source": "native",
+          "needs_review": false
+        },
+        {
+          "page_number": 4,
+          "region_id": "R009",
+          "block_id": "B0013",
+          "quote": "infrastructure",
+          "bbox": [
+            1109.8299560546875,
+            290.9800109863281,
+            1248.525634765625,
+            317.7400207519531
+          ],
+          "source": "native",
+          "needs_review": false
+        }
+      ]
+    },
+    {
+      "point": "AI Agents, Autonomous systems, và Tools là các chủ đề liên quan đến các hệ thống tự động và công cụ hỗ trợ.",
+      "region_ids": [
+        "R004",
+        "R006",
+        "R005"
+      ],
+      "evidence": [
+        {
+          "page_number": 4,
+          "region_id": "R004",
+          "block_id": "B0004",
+          "quote": "AI Agents ",
+          "bbox": [
+            216.88999938964844,
+            181.62997436523438,
+            334.56201171875,
+            208.3899688720703
+          ],
+          "source": "native",
+          "needs_review": false
+        },
+        {
+          "page_number": 4,
+          "region_id": "R006",
+          "block_id": "B0006",
+          "quote": "Autonomous systems ",
+          "bbox": [
+            175.72999572753906,
+            262.1800231933594,
+            411.2659606933594,
+            288.9400329589844
+          ],
+          "source": "native",
+          "needs_review": false
+        },
+        {
+          "page_number": 4,
+          "region_id": "R006",
+          "block_id": "B0010",
+          "quote": "using tools and ",
+          "bbox": [
+            209.80999755859375,
+            290.9800109863281,
+            376.9420166015625,
+            317.7400207519531
+          ],
+          "source": "native",
+          "needs_review": false
+        },
+        {
+          "page_number": 4,
+          "region_id": "R006",
+          "block_id": "B0014",
+          "quote": "workflows",
+          "bbox": [
+            238.00999450683594,
+            319.7799987792969,
+            342.2900085449219,
+            346.5400085449219
+          ],
+          "source": "native",
+          "needs_review": false
+        },
+        {
+          "page_number": 4,
+          "region_id": "R005",
+          "block_id": "B0005",
+          "quote": "Tools",
+          "bbox": [
+            537.6699829101562,
+            181.62997436523438,
+            601.2460327148438,
+            208.3899688720703
+          ],
+          "source": "native",
+          "needs_review": false
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "severity": "minor",
+      "comment": "Region R001 ('What Powers an Agentic Workflow?') contains text that is not clearly related to the main content of the slide. The text appears to be a title or label, but it does not directly support the learning objectives or content of the slide. This may affect the user's ability to quickly locate",
+      "suggestion": "Consider reorganizing the slide to better align the title with the content, or adding a brief explanation of the title's relevance to the slide's purpose.",
+      "region_ids": [
+        "R001"
+      ],
+      "evidence": [
+        {
+          "page_number": 4,
+          "region_id": "R001",
+          "block_id": "B0001",
+          "quote": "What Powers an Agentic Workflow?",
+          "bbox": [
+            83.88,
+            77.03999999999999,
+            1098.36,
+            139.32
+          ],
+          "source": "ocr",
+          "needs_review": true
+        }
+      ]
+    },
+    {
+      "severity": "minor",
+      "comment": "Region R010 ('01') and R011 ('02') and R012 ('03') and R013 ('04') and R014 ('05') and R015 ('06') and R016 ('07') are numbered but do not appear to be part of the main content. They may be distractions or formatting elements that do not contribute to the learning objectives.",
+      "suggestion": "Consider removing or reorganizing these numbered elements to focus on the main content of the slide.",
+      "region_ids": [
+        "R010",
+        "R011",
+        "R012",
+        "R013"
+      ],
+      "evidence": [
+        {
+          "page_number": 4,
+          "region_id": "R010",
+          "block_id": "B0015",
+          "quote": "01",
+          "bbox": [
+            177.6699981689453,
+            431.1099853515625,
+            204.093994140625,
+            457.8699951171875
+          ],
+          "source": "native",
+          "needs_review": false
+        },
+        {
+          "page_number": 4,
+          "region_id": "R011",
+          "block_id": "B0016",
+          "quote": "02",
+          "bbox": [
+            326.1600036621094,
+            431.1099853515625,
+            352.583984375,
+            457.8699951171875
+          ],
+          "source": "native",
+          "needs_review": false
+        },
+        {
+          "page_number": 4,
+          "region_id": "R012",
+          "block_id": "B0017",
+          "quote": "03",
+          "bbox": [
+            474.6199951171875,
+            431.1099853515625,
+            501.04400634765625,
+            457.8699951171875
+          ],
+          "source": "native",
+          "needs_review": false
+        },
+        {
+          "page_number": 4,
+          "region_id": "R013",
+          "block_id": "B0018",
+          "quote": "04",
+          "bbox": [
+            623.1099853515625,
+            431.1099853515625,
+            649.5339965820312,
+            457.8699951171875
+          ],
+          "source": "native",
+          "needs_review": false
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "output_schema_valid": true,
+    "references_valid": true,
+    "semantic_correctness_verified": false
+  },
+  "warnings": [
+    "This is one page, not a whole-document review.",
+    "Evidence proves source identity, not semantic support.",
+    "OCR evidence still requires visual checking.",
+    "Layout relations are candidates, not verified facts."
+  ]
+}

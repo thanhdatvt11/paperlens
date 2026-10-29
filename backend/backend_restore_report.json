@@ -1,0 +1,87 @@
+{
+  "backend": "D:\\paperlens\\backend",
+  "database": "D:\\paperlens\\backend\\paperlens.db",
+  "source_backup": "D:\\paperlens\\backend\\app_before_backend_restore_20261029_103317_049211.zip",
+  "database_backup": "D:\\paperlens\\backend\\paperlens_before_backend_restore_20261029_103317_049211.db",
+  "files_changed": [
+    "app\\controllers\\restored_document_controller.py",
+    "app\\models\\document.py",
+    "app\\schemas\\restored_version_schema.py",
+    "app\\services\\restored_review_queue_service.py",
+    "tests\\test_restored_backend_api.py",
+    "app\\main.py"
+  ],
+  "existing_files_preserved": [],
+  "tables_checked_read_only": {
+    "documents": {
+      "columns": [
+        "created_at",
+        "description",
+        "id",
+        "title"
+      ],
+      "rows": 7
+    },
+    "document_versions": {
+      "columns": [
+        "created_at",
+        "document_id",
+        "id",
+        "original_filename",
+        "page_count",
+        "sha256",
+        "storage_key"
+      ],
+      "rows": 4
+    },
+    "document_chunks": {
+      "columns": [
+        "chunk_index",
+        "document_version_id",
+        "id",
+        "page_number",
+        "text"
+      ],
+      "rows": 162
+    },
+    "review_runs": {
+      "columns": [
+        "chunk_id",
+        "created_at",
+        "document_id",
+        "error_message",
+        "finished_at",
+        "id",
+        "instruction",
+        "job_type",
+        "processed_chunks",
+        "result_json",
+        "stage",
+        "started_at",
+        "status",
+        "timeout_seconds",
+        "total_chunks",
+        "version_id"
+      ],
+      "rows": 29
+    },
+    "review_run_chunks": {
+      "columns": [
+        "chunk_index",
+        "error_message",
+        "id",
+        "page_number",
+        "result_json",
+        "review_run_id",
+        "source_chunk_id",
+        "status",
+        "text"
+      ],
+      "rows": 803
+    }
+  },
+  "database_counts_and_schema_unchanged": true,
+  "models_complete": true,
+  "router_include_present": true,
+  "note": "Schema and static checks only; run tests/import and inspect OpenAPI before starting a review."
+}

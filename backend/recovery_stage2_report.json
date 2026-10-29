@@ -1,0 +1,164 @@
+{
+  "backend": "D:\\paperlens\\backend",
+  "backup": "D:\\paperlens\\backend\\app_before_recovery_20261029_101824_878813.zip",
+  "restored_missing_files": [
+    "app\\core\\config.py",
+    "app\\repositories\\version_repository.py"
+  ],
+  "existing_files_preserved": [],
+  "missing_modules": [],
+  "possibly_missing_symbols": [
+    {
+      "module": "app.models.document",
+      "name": "ReviewJobType",
+      "imported_by": "app\\repositories\\review_run_repository.py"
+    },
+    {
+      "module": "app.models.document",
+      "name": "ReviewRun",
+      "imported_by": "app\\repositories\\review_run_repository.py"
+    },
+    {
+      "module": "app.models.document",
+      "name": "ReviewRunChunk",
+      "imported_by": "app\\repositories\\review_run_repository.py"
+    },
+    {
+      "module": "app.models.document",
+      "name": "ReviewRunChunkStatus",
+      "imported_by": "app\\repositories\\review_run_repository.py"
+    },
+    {
+      "module": "app.models.document",
+      "name": "ReviewRunStage",
+      "imported_by": "app\\repositories\\review_run_repository.py"
+    },
+    {
+      "module": "app.models.document",
+      "name": "ReviewRunStatus",
+      "imported_by": "app\\repositories\\review_run_repository.py"
+    },
+    {
+      "module": "app.models.document",
+      "name": "DocumentChunk",
+      "imported_by": "app\\repositories\\version_repository.py"
+    },
+    {
+      "module": "app.models.document",
+      "name": "DocumentVersion",
+      "imported_by": "app\\repositories\\version_repository.py"
+    },
+    {
+      "module": "app.models.document",
+      "name": "ReviewJobType",
+      "imported_by": "app\\review_worker.py"
+    },
+    {
+      "module": "app.models.document",
+      "name": "DocumentChunk",
+      "imported_by": "app\\services\\ai_service.py"
+    },
+    {
+      "module": "app.models.document",
+      "name": "ReviewRunChunk",
+      "imported_by": "app\\services\\document_review_service.py"
+    },
+    {
+      "module": "app.models.document",
+      "name": "ReviewRunStage",
+      "imported_by": "app\\services\\document_review_service.py"
+    },
+    {
+      "module": "app.models.document",
+      "name": "ReviewRunChunk",
+      "imported_by": "app\\services\\document_review_service_BackUp.py"
+    },
+    {
+      "module": "app.models.document",
+      "name": "ReviewRunStage",
+      "imported_by": "app\\services\\document_review_service_BackUp.py"
+    },
+    {
+      "module": "app.models.document",
+      "name": "DocumentVersion",
+      "imported_by": "app\\services\\document_service.py"
+    }
+  ],
+  "syntax_errors": [],
+  "required_model_classes_missing": [
+    "DocumentChunk",
+    "DocumentVersion",
+    "ReviewJobType",
+    "ReviewRun",
+    "ReviewRunChunk",
+    "ReviewRunChunkStatus",
+    "ReviewRunStage",
+    "ReviewRunStatus"
+  ],
+  "model_symbols": [
+    "Base",
+    "DateTime",
+    "Document",
+    "Mapped",
+    "String",
+    "Text",
+    "datetime",
+    "func",
+    "mapped_column"
+  ],
+  "main_router_includes": [
+    "app.include_router(health_router)",
+    "app.include_router(document_router)"
+  ],
+  "controller_routes": [
+    {
+      "file": "app\\controllers\\document_controller.py",
+      "method": "post",
+      "path": "",
+      "function": "create_document"
+    },
+    {
+      "file": "app\\controllers\\document_controller.py",
+      "method": "get",
+      "path": "",
+      "function": "list_documents"
+    },
+    {
+      "file": "app\\controllers\\document_controller.py",
+      "method": "get",
+      "path": "/{document_id}",
+      "function": "get_document"
+    },
+    {
+      "file": "app\\controllers\\document_controller.py",
+      "method": "put",
+      "path": "/{document_id}",
+      "function": "update_document"
+    },
+    {
+      "file": "app\\controllers\\document_controller.py",
+      "method": "delete",
+      "path": "/{document_id}",
+      "function": "delete_document"
+    },
+    {
+      "file": "app\\controllers\\health_controller.py",
+      "method": "get",
+      "path": "/health",
+      "function": "check_health"
+    }
+  ],
+  "services_files": [
+    "app\\services\\ai_service.py",
+    "app\\services\\document_review_service.py",
+    "app\\services\\document_review_service_BackUp.py",
+    "app\\services\\document_service.py",
+    "app\\services\\document_structure_service.py"
+  ],
+  "schemas_files": [
+    "app\\schemas\\ai_schema.py",
+    "app\\schemas\\document_schema.py",
+    "app\\schemas\\structure_schema.py"
+  ],
+  "note": "Static source audit only. No app import, model call, database access or source deletion. Conditional/dynamic imports may require manual checking."
+}

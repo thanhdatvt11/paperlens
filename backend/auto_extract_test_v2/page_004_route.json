@@ -1,0 +1,68 @@
+{
+  "page_number": 4,
+  "route": "hybrid_layout",
+  "decision_is_heuristic": true,
+  "strategies": {
+    "text_extraction": "native_plus_ocr_candidates",
+    "layout_handling": "multiple_regions_candidate",
+    "image_text_orientation": "not_assessed",
+    "semantic_relationships": "not_verified"
+  },
+  "signals": {
+    "native_characters": 423,
+    "native_lines": 35,
+    "page_rotation_metadata": 0,
+    "upright_native_character_fraction": 1.0,
+    "has_non_horizontal_native_text": false,
+    "parallel_text_rows": 8,
+    "image_regions_without_native_text": [
+      [
+        0.0,
+        74.92002868652344,
+        51.56700134277344,
+        126.4000244140625
+      ],
+      [
+        799.9500122070312,
+        77.27001953125,
+        1098.260009765625,
+        126.52001953125
+      ],
+      [
+        84.0250015258789,
+        77.91998291015625,
+        780.5450439453125,
+        139.22998046875
+      ]
+    ],
+    "footer_images_excluded_from_routing": 1,
+    "repeated_image_rectangles_removed": 0
+  },
+  "warnings": [
+    "These are extraction signals, not findings about the PDF design.",
+    "A simple candidate can still contain missed relationships or text.",
+    "Native direction says nothing about the orientation of image text.",
+    "Image skew, perspective, arrows and table structure are not resolved.",
+    "No automatic quality score or semantic correctness is asserted."
+  ],
+  "extraction_counts": {
+    "native_lines": 35,
+    "supplementary_ocr_segments": 3,
+    "ocr_words_seen": 60,
+    "ocr_words_rejected": 49
+  },
+  "region_counts": {
+    "source_blocks": 38,
+    "regions": 24
+  },
+  "candidate_pairs": 7,
+  "ocr_observation": {
+    "body_or_title_segments_added": 1,
+    "footer_segments_added": 2,
+    "image_content_proven_irrelevant": false,
+    "ocr_additions_visually_verified": false
+  },
+  "text_view_candidate": false,
+  "status": "EXTRACTED_NOT_SEMANTICALLY_VERIFIED",
+  "review_gate": "check_ocr_and_layout_before_integration"
+}

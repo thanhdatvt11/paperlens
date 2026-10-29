@@ -1,0 +1,1970 @@
+{
+  "page_number": 21,
+  "page_size": {
+    "width": 1440.0,
+    "height": 810.0
+  },
+  "coordinate_system": "PDF points, origin at top-left",
+  "ordering": "position_sorted_not_semantic",
+  "settings": {
+    "dpi": 200,
+    "min_confidence": 75.0,
+    "native_overlap": 0.35,
+    "language": "eng"
+  },
+  "counts": {
+    "native_lines": 46,
+    "supplementary_ocr_segments": 3,
+    "ocr_words_seen": 110,
+    "ocr_words_rejected": 98
+  },
+  "blocks": [
+    {
+      "text": "Agent Types in the Sense-Plan-Act Cycle",
+      "bbox": [
+        86.39999999999999,
+        78.11999999999999,
+        1251.72,
+        140.04
+      ],
+      "source": "ocr",
+      "confidence": 90.66,
+      "needs_review": true,
+      "words": [
+        {
+          "text": "Agent",
+          "bbox": [
+            86.39999999999999,
+            80.28,
+            254.51999999999998,
+            140.04
+          ],
+          "confidence": 90.660057
+        },
+        {
+          "text": "Types",
+          "bbox": [
+            273.24,
+            80.28,
+            442.8,
+            140.04
+          ],
+          "confidence": 96.409172
+        },
+        {
+          "text": "in",
+          "bbox": [
+            465.12,
+            79.2,
+            509.76,
+            126.36
+          ],
+          "confidence": 95.885262
+        },
+        {
+          "text": "the",
+          "bbox": [
+            529.92,
+            78.11999999999999,
+            618.84,
+            126.72
+          ],
+          "confidence": 93.162743
+        },
+        {
+          "text": "Sense-Plan-Act",
+          "bbox": [
+            639.0,
+            78.11999999999999,
+            1078.2,
+            127.08
+          ],
+          "confidence": 91.800819
+        },
+        {
+          "text": "Cycle",
+          "bbox": [
+            1099.8,
+            78.11999999999999,
+            1251.72,
+            140.04
+          ],
+          "confidence": 95.922691
+        }
+      ]
+    },
+    {
+      "text": "Characteristics and",
+      "bbox": [
+        1129.6800537109375,
+        187.10000610351562,
+        1351.3638916015625,
+        213.86000061035156
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Agent Type ",
+      "bbox": [
+        133.94000244140625,
+        200.06002807617188,
+        269.73199462890625,
+        226.8200225830078
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Sense ",
+      "bbox": [
+        423.8900146484375,
+        200.06002807617188,
+        500.5220031738281,
+        226.8200225830078
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Plan",
+      "bbox": [
+        693.7899780273438,
+        200.06002807617188,
+        743.7339477539062,
+        226.8200225830078
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Act",
+      "bbox": [
+        961.2999877929688,
+        201.49996948242188,
+        999.4119873046875,
+        228.2599639892578
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Use Cases",
+      "bbox": [
+        1180.4599609375,
+        215.87828063964844,
+        1300.457275390625,
+        242.6650390625
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Triggered by ",
+      "bbox": [
+        392.57000732421875,
+        273.7699890136719,
+        533.5220336914062,
+        300.5299987792969
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Simple tasks like ",
+      "bbox": [
+        1152.6199951171875,
+        273.7699890136719,
+        1337.0120849609375,
+        300.5299987792969
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Minimal planning, ",
+      "bbox": [
+        626.6900024414062,
+        275.0600280761719,
+        820.6820068359375,
+        301.8200378417969
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Binary decisions ",
+      "bbox": [
+        893.260009765625,
+        288.82000732421875,
+        1073.3319091796875,
+        315.58001708984375
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "predefined rules or ",
+      "bbox": [
+        359.92999267578125,
+        302.57000732421875,
+        566.1820068359375,
+        329.33001708984375
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "defect detection in ",
+      "bbox": [
+        1144.4599609375,
+        302.57000732421875,
+        1344.9320068359375,
+        329.33001708984375
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Reflex-Based",
+      "bbox": [
+        122.94999694824219,
+        303.2200012207031,
+        272.4940185546875,
+        329.9800109863281
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "immediate action ",
+      "bbox": [
+        629.3300170898438,
+        303.8599853515625,
+        820.6820068359375,
+        330.6199951171875
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "(accept/reject)",
+      "bbox": [
+        904.4199829101562,
+        317.6199951171875,
+        1055.0439453125,
+        344.3800048828125
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "conditions",
+      "bbox": [
+        406.3699951171875,
+        331.3699951171875,
+        513.169921875,
+        358.1300048828125
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "manufacturing",
+      "bbox": [
+        1166.1800537109375,
+        331.3699951171875,
+        1316.8038330078125,
+        358.1300048828125
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "based on rules",
+      "bbox": [
+        629.3300170898438,
+        332.6600036621094,
+        785.5700073242188,
+        359.4200134277344
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Maintains and ",
+      "bbox": [
+        385.55999755859375,
+        415.2699890136719,
+        540.9320068359375,
+        442.0299987792969
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Complex systems ",
+      "bbox": [
+        1147.3699951171875,
+        430.9200134277344,
+        1342.56201171875,
+        457.6800231933594
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Adapts actions ",
+      "bbox": [
+        902.780029296875,
+        431.57000732421875,
+        1065.6920166015625,
+        458.33001708984375
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Plan actions based ",
+      "bbox": [
+        619.4400024414062,
+        432.1982727050781,
+        827.9273681640625,
+        458.98504638671875
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "updates an internal ",
+      "bbox": [
+        358.44000244140625,
+        444.07000732421875,
+        568.0079345703125,
+        470.83001708984375
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "like smart grid ",
+      "bbox": [
+        1167.530029296875,
+        459.6982727050781,
+        1322.3995361328125,
+        486.48504638671875
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "according to model ",
+      "bbox": [
+        880.0999755859375,
+        460.3482666015625,
+        1088.70703125,
+        487.1350402832031
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "on the model and ",
+      "bbox": [
+        628.0800170898438,
+        461.0400085449219,
+        819.4320678710938,
+        487.8000183105469
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Model-Based",
+      "bbox": [
+        124.38999938964844,
+        461.2799987792969,
+        273.2440185546875,
+        488.0400085449219
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "model of the ",
+      "bbox": [
+        394.20001220703125,
+        472.8482666015625,
+        532.1632690429688,
+        499.6350402832031
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "optimization",
+      "bbox": [
+        1178.3299560546875,
+        488.5400085449219,
+        1304.9537353515625,
+        515.2999877929688
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "predictions",
+      "bbox": [
+        923.780029296875,
+        489.19000244140625,
+        1038.5,
+        515.9500122070312
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "history",
+      "bbox": [
+        685.4400024414062,
+        489.8399963378906,
+        755.4719848632812,
+        516.5999755859375
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "environment",
+      "bbox": [
+        394.55999755859375,
+        501.7000427246094,
+        525.3119506835938,
+        528.4600219726562
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Automation for ",
+      "bbox": [
+        1163.8599853515625,
+        571.8500366210938,
+        1325.8118896484375,
+        598.6099853515625
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Identifies action ",
+      "bbox": [
+        637.3699951171875,
+        573.1700439453125,
+        809.9020385742188,
+        599.9299926757812
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "efficiency, such as ",
+      "bbox": [
+        1143.93994140625,
+        600.6282958984375,
+        1345.619384765625,
+        627.4150390625
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "sequences to ",
+      "bbox": [
+        649.010009765625,
+        601.9700317382812,
+        798.1419677734375,
+        628.72998046875
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Collects data ",
+      "bbox": [
+        390.0,
+        602.5700073242188,
+        534.0919799804688,
+        629.3299560546875
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Executes the steps ",
+      "bbox": [
+        879.1699829101562,
+        603.2200317382812,
+        1087.56201171875,
+        629.97998046875
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Goal-Based",
+      "bbox": [
+        132.22000122070312,
+        617.81005859375,
+        264.0999755859375,
+        644.5700073242188
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "warehouse logistics ",
+      "bbox": [
+        1137.3399658203125,
+        629.4700317382812,
+        1352.33203125,
+        656.22998046875
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "achieve desired ",
+      "bbox": [
+        636.6500244140625,
+        630.77001953125,
+        810.5020141601562,
+        657.5299682617188
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "relevant to the goal",
+      "bbox": [
+        357.4800109863281,
+        631.3699951171875,
+        560.7080688476562,
+        658.1299438476562
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "aligned with the goal",
+      "bbox": [
+        871.25,
+        632.02001953125,
+        1089.337890625,
+        658.7799682617188
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "or robotic assembly",
+      "bbox": [
+        1137.93994140625,
+        658.27001953125,
+        1345.059814453125,
+        685.0299682617188
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "outcomes",
+      "bbox": [
+        668.6900024414062,
+        659.5700073242188,
+        771.8900146484375,
+        686.3299560546875
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "SUCCESS AIMERS",
+      "bbox": [
+        100.08,
+        763.92,
+        295.56,
+        778.68
+      ],
+      "source": "ocr",
+      "confidence": 92.31,
+      "needs_review": true,
+      "words": [
+        {
+          "text": "SUCCESS",
+          "bbox": [
+            100.08,
+            763.92,
+            203.4,
+            778.68
+          ],
+          "confidence": 93.292107
+        },
+        {
+          "text": "AIMERS",
+          "bbox": [
+            210.6,
+            763.92,
+            295.56,
+            778.68
+          ],
+          "confidence": 92.310028
+        }
+      ]
+    },
+    {
+      "text": "Copyright © Success Aimers. All rights reserved.",
+      "bbox": [
+        925.489990234375,
+        766.8300170898438,
+        1307.33837890625,
+        786.9000244140625
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Technical and Academic Training",
+      "bbox": [
+        104.03999999999999,
+        788.76,
+        290.15999999999997,
+        800.28
+      ],
+      "source": "ocr",
+      "confidence": 95.12,
+      "needs_review": true,
+      "words": [
+        {
+          "text": "Technical",
+          "bbox": [
+            104.03999999999999,
+            788.76,
+            156.96,
+            797.76
+          ],
+          "confidence": 95.122932
+        },
+        {
+          "text": "and",
+          "bbox": [
+            161.28,
+            788.76,
+            181.44,
+            797.76
+          ],
+          "confidence": 96.642265
+        },
+        {
+          "text": "Academic",
+          "bbox": [
+            185.04,
+            788.76,
+            240.84,
+            797.76
+          ],
+          "confidence": 96.679413
+        },
+        {
+          "text": "Training",
+          "bbox": [
+            244.44,
+            788.76,
+            290.15999999999997,
+            800.28
+          ],
+          "confidence": 96.726669
+        }
+      ]
+    }
+  ],
+  "rejected_ocr_words": [
+    {
+      "text": "mM",
+      "bbox": [
+        0.0,
+        74.88,
+        51.839999999999996,
+        126.72
+      ],
+      "confidence": 47.593643,
+      "reason": "low_ocr_confidence",
+      "native_overlap": 0.0
+    },
+    {
+      "text": "=",
+      "bbox": [
+        75.96,
+        182.16,
+        248.76,
+        259.92
+      ],
+      "confidence": 62.370602,
+      "reason": "low_ocr_confidence",
+      "native_overlap": 0.21576197440350126
+    },
+    {
+      "text": "=",
+      "bbox": [
+        368.64,
+        182.16,
+        475.91999999999996,
+        259.92
+      ],
+      "confidence": 0.0,
+      "reason": "low_ocr_confidence",
+      "native_overlap": 0.16690325975811068
+    },
+    {
+      "text": "a",
+      "bbox": [
+        622.8,
+        182.16,
+        743.76,
+        259.92
+      ],
+      "confidence": 44.440273,
+      "reason": "low_ocr_confidence",
+      "native_overlap": 0.1420924650477499
+    },
+    {
+      "text": "ae",
+      "bbox": [
+        877.3199999999999,
+        143.64,
+        1064.8799999999999,
+        304.2
+      ],
+      "confidence": 25.315491,
+      "reason": "low_ocr_confidence",
+      "native_overlap": 0.11808342703931518
+    },
+    {
+      "text": "Simple",
+      "bbox": [
+        1153.8,
+        277.92,
+        1225.08,
+        300.24
+      ],
+      "confidence": 96.669922,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999976593370303
+    },
+    {
+      "text": "tasks",
+      "bbox": [
+        1233.36,
+        278.28,
+        1288.08,
+        295.92
+      ],
+      "confidence": 96.642944,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "like",
+      "bbox": [
+        1296.72,
+        278.28,
+        1329.84,
+        295.92
+      ],
+      "confidence": 96.470146,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "Triggered",
+      "bbox": [
+        392.76,
+        278.28,
+        493.2,
+        300.59999999999997
+      ],
+      "confidence": 96.506554,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9968638235140338
+    },
+    {
+      "text": "by",
+      "bbox": [
+        503.28,
+        278.28,
+        527.04,
+        300.59999999999997
+      ],
+      "confidence": 96.901917,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.996862928623608
+    },
+    {
+      "text": "Minimal",
+      "bbox": [
+        628.56,
+        279.36,
+        707.76,
+        297.0
+      ],
+      "confidence": 96.462471,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "planning,",
+      "bbox": [
+        718.56,
+        279.36,
+        811.8,
+        301.68
+      ],
+      "confidence": 95.80687,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "Binary",
+      "bbox": [
+        894.9599999999999,
+        293.4,
+        961.1999999999999,
+        315.71999999999997
+      ],
+      "confidence": 96.87822,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9934281593454095
+    },
+    {
+      "text": "decisions",
+      "bbox": [
+        968.76,
+        293.4,
+        1065.96,
+        311.03999999999996
+      ],
+      "confidence": 96.641693,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "Reflex-Based",
+      "bbox": [
+        124.92,
+        307.44,
+        271.08,
+        325.44
+      ],
+      "confidence": 91.392624,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999999206576379
+    },
+    {
+      "text": "predefined",
+      "bbox": [
+        361.44,
+        306.71999999999997,
+        471.59999999999997,
+        329.03999999999996
+      ],
+      "confidence": 96.639465,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "rules",
+      "bbox": [
+        481.32,
+        307.08,
+        531.0,
+        324.71999999999997
+      ],
+      "confidence": 96.656662,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "or",
+      "bbox": [
+        539.28,
+        311.4,
+        560.16,
+        324.71999999999997
+      ],
+      "confidence": 96.346107,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.978065531593866
+    },
+    {
+      "text": "immediate",
+      "bbox": [
+        630.72,
+        308.15999999999997,
+        739.4399999999999,
+        325.8
+      ],
+      "confidence": 96.224251,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999993923153851
+    },
+    {
+      "text": "action",
+      "bbox": [
+        750.9599999999999,
+        308.15999999999997,
+        812.52,
+        325.8
+      ],
+      "confidence": 96.666115,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999990607299148
+    },
+    {
+      "text": "defect",
+      "bbox": [
+        1145.1599999999999,
+        306.71999999999997,
+        1209.6,
+        324.71999999999997
+      ],
+      "confidence": 96.052544,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999990907239283
+    },
+    {
+      "text": "detection",
+      "bbox": [
+        1216.8,
+        307.08,
+        1312.2,
+        324.71999999999997
+      ],
+      "confidence": 96.052544,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999998067590197
+    },
+    {
+      "text": "in",
+      "bbox": [
+        1321.56,
+        307.08,
+        1337.04,
+        324.36
+      ],
+      "confidence": 95.930046,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999986676488879
+    },
+    {
+      "text": "conditions",
+      "bbox": [
+        407.15999999999997,
+        335.88,
+        512.28,
+        353.52
+      ],
+      "confidence": 95.775635,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999993442505605
+    },
+    {
+      "text": "based",
+      "bbox": [
+        630.72,
+        336.96,
+        692.64,
+        354.59999999999997
+      ],
+      "confidence": 96.186897,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "on",
+      "bbox": [
+        702.0,
+        341.28,
+        726.48,
+        354.59999999999997
+      ],
+      "confidence": 95.355164,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999997520206539
+    },
+    {
+      "text": "rules",
+      "bbox": [
+        735.8399999999999,
+        336.96,
+        784.8,
+        354.59999999999997
+      ],
+      "confidence": 96.153168,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "(accept/reject)",
+      "bbox": [
+        905.76,
+        321.84,
+        1054.08,
+        344.52
+      ],
+      "confidence": 91.229752,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9938271773605185
+    },
+    {
+      "text": "manufacturing",
+      "bbox": [
+        1167.48,
+        335.52,
+        1315.44,
+        358.2
+      ],
+      "confidence": 95.802864,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9969140167519595
+    },
+    {
+      "text": "Maintains",
+      "bbox": [
+        387.36,
+        419.76,
+        487.44,
+        437.4
+      ],
+      "confidence": 96.505302,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999992711505288
+    },
+    {
+      "text": "and",
+      "bbox": [
+        495.71999999999997,
+        419.76,
+        532.8,
+        437.4
+      ],
+      "confidence": 96.159218,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999987382604217
+    },
+    {
+      "text": "Plan",
+      "bbox": [
+        621.36,
+        436.68,
+        666.0,
+        454.32
+      ],
+      "confidence": 94.995895,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "actions",
+      "bbox": [
+        674.64,
+        436.68,
+        749.16,
+        454.32
+      ],
+      "confidence": 94.995895,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "based",
+      "bbox": [
+        758.16,
+        436.68,
+        819.7199999999999,
+        454.32
+      ],
+      "confidence": 96.603584,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "Adapts",
+      "bbox": [
+        902.88,
+        435.96,
+        976.68,
+        457.91999999999996
+      ],
+      "confidence": 96.538139,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "actions",
+      "bbox": [
+        984.5999999999999,
+        435.96,
+        1058.3999999999999,
+        453.59999999999997
+      ],
+      "confidence": 96.474525,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "Complex",
+      "bbox": [
+        1148.3999999999999,
+        434.88,
+        1242.0,
+        457.2
+      ],
+      "confidence": 96.384933,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9997640124634862
+    },
+    {
+      "text": "systems",
+      "bbox": [
+        1249.2,
+        435.96,
+        1335.24,
+        457.56
+      ],
+      "confidence": 96.816048,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "Model-Based",
+      "bbox": [
+        126.36,
+        465.84,
+        271.8,
+        483.47999999999996
+      ],
+      "confidence": 96.476387,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "updates",
+      "bbox": [
+        360.0,
+        448.56,
+        442.8,
+        470.52
+      ],
+      "confidence": 95.177071,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999994634591265
+    },
+    {
+      "text": "an",
+      "bbox": [
+        451.08,
+        452.88,
+        475.56,
+        466.2
+      ],
+      "confidence": 96.21946,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "internal",
+      "bbox": [
+        484.91999999999996,
+        448.56,
+        559.8,
+        466.2
+      ],
+      "confidence": 96.21946,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "on",
+      "bbox": [
+        628.92,
+        469.79999999999995,
+        653.4,
+        483.12
+      ],
+      "confidence": 95.500641,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "the",
+      "bbox": [
+        661.68,
+        465.47999999999996,
+        694.0799999999999,
+        483.12
+      ],
+      "confidence": 95.500641,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999998539086214
+    },
+    {
+      "text": "model",
+      "bbox": [
+        702.72,
+        465.47999999999996,
+        765.0,
+        483.12
+      ],
+      "confidence": 95.679024,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999995707942568
+    },
+    {
+      "text": "and",
+      "bbox": [
+        774.36,
+        465.47999999999996,
+        811.0799999999999,
+        483.12
+      ],
+      "confidence": 95.873672,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999999647203539
+    },
+    {
+      "text": "according",
+      "bbox": [
+        880.92,
+        464.76,
+        982.4399999999999,
+        487.08
+      ],
+      "confidence": 96.293228,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999991532589957
+    },
+    {
+      "text": "to",
+      "bbox": [
+        991.4399999999999,
+        465.47999999999996,
+        1010.16,
+        482.4
+      ],
+      "confidence": 96.536674,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999974249595251
+    },
+    {
+      "text": "model",
+      "bbox": [
+        1018.8,
+        464.76,
+        1080.36,
+        482.4
+      ],
+      "confidence": 96.497711,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999990607299198
+    },
+    {
+      "text": "like",
+      "bbox": [
+        1168.9199999999998,
+        464.03999999999996,
+        1202.76,
+        481.68
+      ],
+      "confidence": 96.392609,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999980903517086
+    },
+    {
+      "text": "smart",
+      "bbox": [
+        1211.04,
+        464.76,
+        1270.08,
+        481.68
+      ],
+      "confidence": 96.026855,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999975840044893
+    },
+    {
+      "text": "grid",
+      "bbox": [
+        1277.28,
+        464.03999999999996,
+        1314.0,
+        486.35999999999996
+      ],
+      "confidence": 96.760559,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999981630266446
+    },
+    {
+      "text": "model",
+      "bbox": [
+        395.64,
+        477.35999999999996,
+        457.91999999999996,
+        495.0
+      ],
+      "confidence": 96.278351,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "of",
+      "bbox": [
+        466.91999999999996,
+        477.0,
+        487.08,
+        495.0
+      ],
+      "confidence": 96.982544,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.962899223206534
+    },
+    {
+      "text": "the",
+      "bbox": [
+        493.2,
+        477.35999999999996,
+        524.88,
+        495.0
+      ],
+      "confidence": 96.913269,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "environment",
+      "bbox": [
+        395.28,
+        506.15999999999997,
+        525.24,
+        523.8
+      ],
+      "confidence": 95.948723,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.999999034638514
+    },
+    {
+      "text": "history",
+      "bbox": [
+        686.88,
+        494.28,
+        755.28,
+        516.6
+      ],
+      "confidence": 96.647476,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999993178013613
+    },
+    {
+      "text": "predictions",
+      "bbox": [
+        925.1999999999999,
+        493.56,
+        1037.52,
+        515.52
+      ],
+      "confidence": 96.126968,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "optimization",
+      "bbox": [
+        1179.0,
+        492.84,
+        1303.56,
+        514.8
+      ],
+      "confidence": 96.75013,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "Identifies",
+      "bbox": [
+        639.36,
+        577.0799999999999,
+        732.6,
+        595.0799999999999
+      ],
+      "confidence": 88.603828,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.999999895263567
+    },
+    {
+      "text": "action",
+      "bbox": [
+        740.88,
+        577.4399999999999,
+        802.0799999999999,
+        595.0799999999999
+      ],
+      "confidence": 96.529449,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "Automation",
+      "bbox": [
+        1163.8799999999999,
+        576.36,
+        1283.76,
+        594.0
+      ],
+      "confidence": 96.748528,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "for",
+      "bbox": [
+        1291.68,
+        576.0,
+        1319.76,
+        594.0
+      ],
+      "confidence": 96.371712,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9811923035189662
+    },
+    {
+      "text": "Goal-Based",
+      "bbox": [
+        133.2,
+        621.72,
+        262.8,
+        639.72
+      ],
+      "confidence": 91.978859,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.999999929357458
+    },
+    {
+      "text": "Collects",
+      "bbox": [
+        390.96,
+        606.6,
+        474.47999999999996,
+        624.6
+      ],
+      "confidence": 96.332428,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "data",
+      "bbox": [
+        482.4,
+        606.9599999999999,
+        526.68,
+        624.6
+      ],
+      "confidence": 96.406685,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999973427996639
+    },
+    {
+      "text": "sequences",
+      "bbox": [
+        649.8,
+        610.56,
+        764.28,
+        628.1999999999999
+      ],
+      "confidence": 96.04113,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "to",
+      "bbox": [
+        772.1999999999999,
+        606.9599999999999,
+        790.92,
+        623.88
+      ],
+      "confidence": 96.04113,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999974249595218
+    },
+    {
+      "text": "Executes",
+      "bbox": [
+        880.92,
+        607.68,
+        977.04,
+        625.3199999999999
+      ],
+      "confidence": 96.231224,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "the",
+      "bbox": [
+        984.5999999999999,
+        607.68,
+        1017.0,
+        625.3199999999999
+      ],
+      "confidence": 96.231224,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "steps",
+      "bbox": [
+        1024.92,
+        608.4,
+        1080.0,
+        629.64
+      ],
+      "confidence": 96.375359,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999987423799996
+    },
+    {
+      "text": "efficiency,",
+      "bbox": [
+        1144.8,
+        604.8,
+        1248.48,
+        627.48
+      ],
+      "confidence": 96.107811,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9971356419197779
+    },
+    {
+      "text": "such",
+      "bbox": [
+        1257.84,
+        605.16,
+        1306.08,
+        622.8
+      ],
+      "confidence": 96.107811,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "as",
+      "bbox": [
+        1314.72,
+        609.48,
+        1338.48,
+        622.8
+      ],
+      "confidence": 96.415771,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "relevant",
+      "bbox": [
+        358.91999999999996,
+        635.76,
+        442.44,
+        653.4
+      ],
+      "confidence": 96.707878,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "to",
+      "bbox": [
+        450.0,
+        636.48,
+        469.08,
+        653.4
+      ],
+      "confidence": 96.761803,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "the",
+      "bbox": [
+        476.64,
+        635.76,
+        509.03999999999996,
+        653.4
+      ],
+      "confidence": 96.943954,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "goal",
+      "bbox": [
+        516.96,
+        635.76,
+        559.0799999999999,
+        658.0799999999999
+      ],
+      "confidence": 95.944168,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "achieve",
+      "bbox": [
+        637.1999999999999,
+        635.04,
+        718.56,
+        652.68
+      ],
+      "confidence": 96.13929,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "desired",
+      "bbox": [
+        726.8399999999999,
+        635.04,
+        802.0799999999999,
+        652.68
+      ],
+      "confidence": 95.860367,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "aligned",
+      "bbox": [
+        871.92,
+        636.48,
+        946.8,
+        658.8
+      ],
+      "confidence": 96.790939,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9991034608923645
+    },
+    {
+      "text": "with",
+      "bbox": [
+        955.4399999999999,
+        636.48,
+        996.8399999999999,
+        654.12
+      ],
+      "confidence": 96.626503,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9958955493178017
+    },
+    {
+      "text": "the",
+      "bbox": [
+        1005.12,
+        636.48,
+        1037.52,
+        654.12
+      ],
+      "confidence": 96.824081,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "goal",
+      "bbox": [
+        1045.44,
+        636.48,
+        1087.56,
+        658.8
+      ],
+      "confidence": 96.539032,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.999106175477119
+    },
+    {
+      "text": "warehouse",
+      "bbox": [
+        1137.24,
+        633.9599999999999,
+        1253.8799999999999,
+        651.6
+      ],
+      "confidence": 96.202255,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9991403686986936
+    },
+    {
+      "text": "logistics",
+      "bbox": [
+        1262.8799999999999,
+        633.9599999999999,
+        1344.96,
+        656.28
+      ],
+      "confidence": 96.747383,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9977574629410648
+    },
+    {
+      "text": "outcomes",
+      "bbox": [
+        669.24,
+        664.56,
+        771.12,
+        681.48
+      ],
+      "confidence": 95.986046,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999990378889962
+    },
+    {
+      "text": "or",
+      "bbox": [
+        1138.68,
+        667.0799999999999,
+        1159.56,
+        680.4
+      ],
+      "confidence": 95.485344,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9852389202814447
+    },
+    {
+      "text": "robotic",
+      "bbox": [
+        1167.12,
+        662.76,
+        1237.68,
+        680.4
+      ],
+      "confidence": 95.485344,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "assembly",
+      "bbox": [
+        1245.24,
+        662.76,
+        1344.96,
+        685.0799999999999
+      ],
+      "confidence": 95.931107,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9977577040041345
+    },
+    {
+      "text": "Copyright",
+      "bbox": [
+        926.28,
+        769.68,
+        1002.24,
+        786.9599999999999
+      ],
+      "confidence": 96.20388,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9941925761060166
+    },
+    {
+      "text": "©",
+      "bbox": [
+        1007.28,
+        769.68,
+        1020.5999999999999,
+        783.36
+      ],
+      "confidence": 96.13871,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9890439348557051
+    },
+    {
+      "text": "Success",
+      "bbox": [
+        1026.0,
+        769.68,
+        1090.44,
+        783.36
+      ],
+      "confidence": 93.297195,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999985553283032
+    },
+    {
+      "text": "Aimers.",
+      "bbox": [
+        1095.84,
+        770.04,
+        1153.44,
+        783.36
+      ],
+      "confidence": 91.124374,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9973552677856307
+    },
+    {
+      "text": "All",
+      "bbox": [
+        1159.9199999999998,
+        770.04,
+        1179.0,
+        783.0
+      ],
+      "confidence": 96.511803,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.99633343792425
+    },
+    {
+      "text": "rights",
+      "bbox": [
+        1185.84,
+        770.04,
+        1227.96,
+        786.9599999999999
+      ],
+      "confidence": 96.511803,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9964565267256058
+    },
+    {
+      "text": "reserved.",
+      "bbox": [
+        1234.44,
+        770.04,
+        1306.08,
+        783.36
+      ],
+      "confidence": 96.345787,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "SK",
+      "bbox": [
+        50.04,
+        757.8,
+        93.6,
+        801.36
+      ],
+      "confidence": 55.353352,
+      "reason": "low_ocr_confidence",
+      "native_overlap": 0.0
+    }
+  ],
+  "warnings": [
+    "Position sorting is not semantic reading order.",
+    "All OCR additions require visual review, even with high confidence.",
+    "Overlap filtering is heuristic; rejected candidates are retained.",
+    "No title-description, column, arrow, or table relationships inferred.",
+    "Bounding boxes and source labels must not be treated as PDF prose.",
+    "Some OCR candidates were rejected for low confidence."
+  ],
+  "routing": {
+    "page_number": 21,
+    "route": "hybrid_layout",
+    "decision_is_heuristic": true,
+    "signals": {
+      "native_characters": 701,
+      "native_lines": 46,
+      "page_rotation_metadata": 0,
+      "upright_native_character_fraction": 1.0,
+      "has_non_horizontal_native_text": false,
+      "parallel_text_rows": 11,
+      "image_regions_without_native_text": [
+        [
+          0.0,
+          74.92002868652344,
+          51.56700134277344,
+          126.4000244140625
+        ],
+        [
+          983.489990234375,
+          78.21002197265625,
+          1251.4100341796875,
+          139.83001708984375
+        ],
+        [
+          86.60800170898438,
+          78.21002197265625,
+          810.2879638671875,
+          139.83001708984375
+        ],
+        [
+          838.6599731445312,
+          78.20999145507812,
+          957.3899536132812,
+          126.79998779296875
+        ]
+      ],
+      "footer_images_excluded_from_routing": 1
+    },
+    "warnings": [
+      "These are extraction signals, not findings about the PDF design.",
+      "A simple candidate can still contain missed relationships or text.",
+      "Native direction says nothing about the orientation of image text.",
+      "Image skew, perspective, arrows and table structure are not resolved.",
+      "No automatic quality score or semantic correctness is asserted."
+    ]
+  }
+}

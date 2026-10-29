@@ -1,0 +1,1063 @@
+{
+  "page_number": 2,
+  "page_size": {
+    "width": 1440.0,
+    "height": 810.0
+  },
+  "coordinate_system": "PDF points, origin at top-left",
+  "ordering": "position_sorted_not_semantic",
+  "settings": {
+    "dpi": 200,
+    "min_confidence": 75.0,
+    "native_overlap": 0.35,
+    "language": "eng"
+  },
+  "counts": {
+    "native_lines": 9,
+    "supplementary_ocr_segments": 2,
+    "ocr_words_seen": 72,
+    "ocr_words_rejected": 66
+  },
+  "blocks": [
+    {
+      "text": "Learning Objectives",
+      "bbox": [
+        72.21600341796875,
+        75.56378173828125,
+        553.6173095703125,
+        124.66838073730469
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Define Agentic AI and outline its primary objectives.",
+      "bbox": [
+        141.6199951171875,
+        174.24002075195312,
+        686.5699462890625,
+        201.00001525878906
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Explain the differences among Traditional AI, Agentic AI, and Generative AI. ",
+      "bbox": [
+        141.6199951171875,
+        212.04000854492188,
+        953.3319091796875,
+        238.8000030517578
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Describe the key building blocks of Agentic AI.",
+      "bbox": [
+        141.6199951171875,
+        255.25997924804688,
+        628.4619750976562,
+        282.0199890136719
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Illustrate the role of Human-in-the-Loop systems in Agentic AI. ",
+      "bbox": [
+        141.6199951171875,
+        298.4599914550781,
+        807.0219116210938,
+        325.2200012207031
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Demonstrate how autonomous agents function in real-world applications. ",
+      "bbox": [
+        141.6199951171875,
+        341.6600036621094,
+        920.134033203125,
+        368.4200134277344
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Analyze various Agentic AI frameworks and their use cases.",
+      "bbox": [
+        141.6199951171875,
+        384.8599853515625,
+        778.10205078125,
+        411.6199951171875
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Course Outline",
+      "bbox": [
+        141.6199951171875,
+        428.0899963378906,
+        300.2599792480469,
+        454.8500061035156
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "SUCCESS AIMERS",
+      "bbox": [
+        100.08,
+        763.92,
+        295.56,
+        778.68
+      ],
+      "source": "ocr",
+      "confidence": 92.31,
+      "needs_review": true,
+      "words": [
+        {
+          "text": "SUCCESS",
+          "bbox": [
+            100.08,
+            763.92,
+            203.4,
+            778.68
+          ],
+          "confidence": 93.292107
+        },
+        {
+          "text": "AIMERS",
+          "bbox": [
+            210.6,
+            763.92,
+            295.56,
+            778.68
+          ],
+          "confidence": 92.310028
+        }
+      ]
+    },
+    {
+      "text": "Copyright © Success Aimers. All rights reserved.",
+      "bbox": [
+        925.489990234375,
+        766.8300170898438,
+        1307.33837890625,
+        786.9000244140625
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    {
+      "text": "Technical and Academic Training",
+      "bbox": [
+        104.03999999999999,
+        789.12,
+        289.8,
+        800.28
+      ],
+      "source": "ocr",
+      "confidence": 95.96,
+      "needs_review": true,
+      "words": [
+        {
+          "text": "Technical",
+          "bbox": [
+            104.03999999999999,
+            789.12,
+            156.96,
+            797.76
+          ],
+          "confidence": 96.075729
+        },
+        {
+          "text": "and",
+          "bbox": [
+            161.64,
+            789.12,
+            181.44,
+            797.76
+          ],
+          "confidence": 96.390823
+        },
+        {
+          "text": "Academic",
+          "bbox": [
+            185.4,
+            789.12,
+            240.84,
+            797.76
+          ],
+          "confidence": 96.390823
+        },
+        {
+          "text": "Training",
+          "bbox": [
+            244.79999999999998,
+            789.12,
+            289.8,
+            800.28
+          ],
+          "confidence": 95.955658
+        }
+      ]
+    }
+  ],
+  "rejected_ocr_words": [
+    {
+      "text": "))",
+      "bbox": [
+        0.0,
+        74.88,
+        51.839999999999996,
+        126.72
+      ],
+      "confidence": 48.282829,
+      "reason": "low_ocr_confidence",
+      "native_overlap": 0.0
+    },
+    {
+      "text": "Learning",
+      "bbox": [
+        75.6,
+        83.88,
+        276.48,
+        124.92
+      ],
+      "confidence": 96.417427,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9938690551771839
+    },
+    {
+      "text": "Objectives",
+      "bbox": [
+        303.84,
+        83.52,
+        552.24,
+        124.92
+      ],
+      "confidence": 96.456833,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9939222966948842
+    },
+    {
+      "text": "Define",
+      "bbox": [
+        143.28,
+        178.2,
+        209.88,
+        196.2
+      ],
+      "confidence": 93.278259,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "Agentic",
+      "bbox": [
+        217.44,
+        178.56,
+        297.36,
+        200.88
+      ],
+      "confidence": 92.886581,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9997498105174402
+    },
+    {
+      "text": "Al",
+      "bbox": [
+        304.2,
+        178.56,
+        324.71999999999997,
+        195.84
+      ],
+      "confidence": 96.386543,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9990252705569155
+    },
+    {
+      "text": "and",
+      "bbox": [
+        333.71999999999997,
+        178.56,
+        371.15999999999997,
+        196.2
+      ],
+      "confidence": 96.269623,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "outline",
+      "bbox": [
+        380.52,
+        178.56,
+        449.28,
+        196.2
+      ],
+      "confidence": 94.725471,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "its",
+      "bbox": [
+        458.64,
+        178.56,
+        480.24,
+        196.2
+      ],
+      "confidence": 95.795197,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999988351189388
+    },
+    {
+      "text": "primary",
+      "bbox": [
+        489.24,
+        178.56,
+        567.36,
+        200.88
+      ],
+      "confidence": 95.839844,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "objectives.",
+      "bbox": [
+        574.92,
+        178.56,
+        684.72,
+        200.88
+      ],
+      "confidence": 96.393288,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "Explain",
+      "bbox": [
+        143.28,
+        216.35999999999999,
+        218.16,
+        238.32
+      ],
+      "confidence": 95.869797,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "the",
+      "bbox": [
+        227.51999999999998,
+        216.35999999999999,
+        259.56,
+        234.0
+      ],
+      "confidence": 96.314888,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999997558531605
+    },
+    {
+      "text": "differences",
+      "bbox": [
+        267.84,
+        216.0,
+        383.4,
+        234.0
+      ],
+      "confidence": 96.01236,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999999788732585
+    },
+    {
+      "text": "among",
+      "bbox": [
+        391.68,
+        221.04,
+        462.96,
+        238.67999999999998
+      ],
+      "confidence": 96.257179,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999999482741083
+    },
+    {
+      "text": "Traditional",
+      "bbox": [
+        471.59999999999997,
+        216.35999999999999,
+        581.04,
+        234.0
+      ],
+      "confidence": 96.283394,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999997088556112
+    },
+    {
+      "text": "Al,",
+      "bbox": [
+        590.04,
+        216.35999999999999,
+        617.4,
+        236.88
+      ],
+      "confidence": 92.978699,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "Agentic",
+      "bbox": [
+        625.3199999999999,
+        216.35999999999999,
+        705.24,
+        238.67999999999998
+      ],
+      "confidence": 91.701965,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9991234634628345
+    },
+    {
+      "text": "Al,",
+      "bbox": [
+        712.0799999999999,
+        216.35999999999999,
+        739.4399999999999,
+        236.88
+      ],
+      "confidence": 96.399773,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999996728133774
+    },
+    {
+      "text": "and",
+      "bbox": [
+        748.4399999999999,
+        216.35999999999999,
+        785.88,
+        234.0
+      ],
+      "confidence": 96.399773,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "Generative",
+      "bbox": [
+        795.6,
+        216.0,
+        910.4399999999999,
+        234.0
+      ],
+      "confidence": 96.35833,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "Al.",
+      "bbox": [
+        918.0,
+        216.35999999999999,
+        945.0,
+        233.64
+      ],
+      "confidence": 94.901108,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.999999929357458
+    },
+    {
+      "text": "Describe",
+      "bbox": [
+        143.28,
+        259.56,
+        235.07999999999998,
+        277.2
+      ],
+      "confidence": 96.530785,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "the",
+      "bbox": [
+        242.64,
+        259.56,
+        274.68,
+        277.2
+      ],
+      "confidence": 96.530785,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "key",
+      "bbox": [
+        282.96,
+        259.56,
+        318.24,
+        281.88
+      ],
+      "confidence": 96.630646,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "building",
+      "bbox": [
+        326.15999999999997,
+        259.56,
+        405.71999999999997,
+        281.88
+      ],
+      "confidence": 96.509293,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "blocks",
+      "bbox": [
+        415.44,
+        259.56,
+        480.96,
+        277.2
+      ],
+      "confidence": 96.057938,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "of",
+      "bbox": [
+        488.52,
+        259.2,
+        508.68,
+        277.2
+      ],
+      "confidence": 93.285957,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9584336053757428
+    },
+    {
+      "text": "Agentic",
+      "bbox": [
+        513.72,
+        259.56,
+        593.64,
+        281.88
+      ],
+      "confidence": 91.287743,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9997251810825687
+    },
+    {
+      "text": "Al.",
+      "bbox": [
+        599.76,
+        259.56,
+        626.4,
+        276.84
+      ],
+      "confidence": 95.235535,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "Illustrate",
+      "bbox": [
+        143.64,
+        302.76,
+        231.12,
+        320.4
+      ],
+      "confidence": 79.856949,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999990515496097
+    },
+    {
+      "text": "the",
+      "bbox": [
+        239.39999999999998,
+        302.76,
+        271.08,
+        320.4
+      ],
+      "confidence": 96.840652,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999988691952884
+    },
+    {
+      "text": "role",
+      "bbox": [
+        280.44,
+        302.76,
+        317.88,
+        320.4
+      ],
+      "confidence": 96.81971,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.999999165597296
+    },
+    {
+      "text": "of",
+      "bbox": [
+        326.15999999999997,
+        302.4,
+        346.68,
+        320.4
+      ],
+      "confidence": 93.292572,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9486341569391125
+    },
+    {
+      "text": "Human-in-the-Loop",
+      "bbox": [
+        353.88,
+        302.76,
+        556.1999999999999,
+        324.71999999999997
+      ],
+      "confidence": 91.821251,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999996470881295
+    },
+    {
+      "text": "systems",
+      "bbox": [
+        565.92,
+        303.47999999999996,
+        652.3199999999999,
+        325.08
+      ],
+      "confidence": 96.379189,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999991522891765
+    },
+    {
+      "text": "in",
+      "bbox": [
+        660.9599999999999,
+        302.76,
+        676.4399999999999,
+        320.03999999999996
+      ],
+      "confidence": 93.280289,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999986676488913
+    },
+    {
+      "text": "Agentic",
+      "bbox": [
+        685.0799999999999,
+        302.76,
+        765.0,
+        325.08
+      ],
+      "confidence": 92.067757,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999735448563646
+    },
+    {
+      "text": "Al.",
+      "bbox": [
+        771.8399999999999,
+        302.76,
+        798.48,
+        320.03999999999996
+      ],
+      "confidence": 94.225845,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999981881143825
+    },
+    {
+      "text": "Demonstrate",
+      "bbox": [
+        143.28,
+        345.96,
+        277.92,
+        363.59999999999997
+      ],
+      "confidence": 96.514679,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "how",
+      "bbox": [
+        286.92,
+        345.96,
+        329.03999999999996,
+        363.59999999999997
+      ],
+      "confidence": 96.26268,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "autonomous",
+      "bbox": [
+        336.96,
+        346.68,
+        467.28,
+        363.59999999999997
+      ],
+      "confidence": 96.24823,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "agents",
+      "bbox": [
+        475.91999999999996,
+        346.68,
+        546.12,
+        368.28
+      ],
+      "confidence": 96.137749,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "function",
+      "bbox": [
+        554.04,
+        345.59999999999997,
+        636.12,
+        363.59999999999997
+      ],
+      "confidence": 96.147957,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "in",
+      "bbox": [
+        645.84,
+        345.96,
+        661.3199999999999,
+        363.24
+      ],
+      "confidence": 96.828979,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999986676488953
+    },
+    {
+      "text": "real-world",
+      "bbox": [
+        671.04,
+        345.96,
+        772.56,
+        363.59999999999997
+      ],
+      "confidence": 96.098885,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "applications.",
+      "bbox": [
+        782.28,
+        345.96,
+        911.52,
+        367.91999999999996
+      ],
+      "confidence": 96.11763,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "Analyze",
+      "bbox": [
+        141.48,
+        389.15999999999997,
+        225.72,
+        411.47999999999996
+      ],
+      "confidence": 96.518372,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9983384817259776
+    },
+    {
+      "text": "various",
+      "bbox": [
+        234.0,
+        389.15999999999997,
+        310.32,
+        406.8
+      ],
+      "confidence": 93.288757,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999991963559917
+    },
+    {
+      "text": "Agentic",
+      "bbox": [
+        317.88,
+        389.15999999999997,
+        397.8,
+        411.47999999999996
+      ],
+      "confidence": 92.188156,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9997247992308647
+    },
+    {
+      "text": "Al",
+      "bbox": [
+        404.64,
+        389.15999999999997,
+        425.15999999999997,
+        406.44
+      ],
+      "confidence": 96.485222,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999993939613876
+    },
+    {
+      "text": "frameworks",
+      "bbox": [
+        433.8,
+        388.8,
+        556.56,
+        406.8
+      ],
+      "confidence": 96.785812,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "and",
+      "bbox": [
+        564.84,
+        389.15999999999997,
+        602.28,
+        406.8
+      ],
+      "confidence": 95.964752,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999991655972942
+    },
+    {
+      "text": "their",
+      "bbox": [
+        611.28,
+        389.15999999999997,
+        657.72,
+        406.8
+      ],
+      "confidence": 95.964752,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9937537007296429
+    },
+    {
+      "text": "use",
+      "bbox": [
+        665.64,
+        393.84,
+        701.64,
+        406.8
+      ],
+      "confidence": 96.314735,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999993406696056
+    },
+    {
+      "text": "cases.",
+      "bbox": [
+        710.64,
+        393.84,
+        776.16,
+        406.8
+      ],
+      "confidence": 96.26931,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.999998707216021
+    },
+    {
+      "text": "Course",
+      "bbox": [
+        142.56,
+        432.0,
+        217.07999999999998,
+        450.0
+      ],
+      "confidence": 96.483994,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "Outline",
+      "bbox": [
+        226.07999999999998,
+        432.0,
+        299.15999999999997,
+        450.0
+      ],
+      "confidence": 95.100815,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "Copyright",
+      "bbox": [
+        926.28,
+        770.04,
+        1001.88,
+        786.9599999999999
+      ],
+      "confidence": 96.055519,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9964563204480108
+    },
+    {
+      "text": "©",
+      "bbox": [
+        1007.28,
+        770.04,
+        1020.5999999999999,
+        783.0
+      ],
+      "confidence": 96.055519,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.989046141233025
+    },
+    {
+      "text": "Success",
+      "bbox": [
+        1026.0,
+        770.04,
+        1090.44,
+        783.36
+      ],
+      "confidence": 93.132401,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9999996405896973
+    },
+    {
+      "text": "Aimers.",
+      "bbox": [
+        1095.84,
+        770.04,
+        1153.44,
+        783.36
+      ],
+      "confidence": 91.036301,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9973552677856307
+    },
+    {
+      "text": "All",
+      "bbox": [
+        1159.9199999999998,
+        770.04,
+        1179.0,
+        783.0
+      ],
+      "confidence": 96.23056,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.99633343792425
+    },
+    {
+      "text": "rights",
+      "bbox": [
+        1185.84,
+        770.04,
+        1227.96,
+        786.9599999999999
+      ],
+      "confidence": 95.133354,
+      "reason": "overlaps_native_text",
+      "native_overlap": 0.9964565267256058
+    },
+    {
+      "text": "reserved.",
+      "bbox": [
+        1234.44,
+        770.04,
+        1306.08,
+        783.36
+      ],
+      "confidence": 96.32399,
+      "reason": "overlaps_native_text",
+      "native_overlap": 1.0
+    },
+    {
+      "text": "SK",
+      "bbox": [
+        50.4,
+        757.4399999999999,
+        93.96,
+        801.0
+      ],
+      "confidence": 44.972614,
+      "reason": "low_ocr_confidence",
+      "native_overlap": 0.0
+    }
+  ],
+  "warnings": [
+    "Position sorting is not semantic reading order.",
+    "All OCR additions require visual review, even with high confidence.",
+    "Overlap filtering is heuristic; rejected candidates are retained.",
+    "No title-description, column, arrow, or table relationships inferred.",
+    "Bounding boxes and source labels must not be treated as PDF prose.",
+    "Some OCR candidates were rejected for low confidence."
+  ],
+  "routing": {
+    "page_number": 2,
+    "route": "hybrid_layout",
+    "decision_is_heuristic": true,
+    "strategies": {
+      "text_extraction": "native_plus_ocr_candidates",
+      "layout_handling": "single_flow_candidate",
+      "image_text_orientation": "not_assessed",
+      "semantic_relationships": "not_verified"
+    },
+    "signals": {
+      "native_characters": 451,
+      "native_lines": 9,
+      "page_rotation_metadata": 0,
+      "upright_native_character_fraction": 1.0,
+      "has_non_horizontal_native_text": false,
+      "parallel_text_rows": 0,
+      "image_regions_without_native_text": [
+        [
+          0.0,
+          74.92002868652344,
+          51.56700134277344,
+          126.4000244140625
+        ],
+        [
+          1010.9299926757812,
+          229.89999389648438,
+          1372.3699951171875,
+          588.9400024414062
+        ]
+      ],
+      "footer_images_excluded_from_routing": 1,
+      "repeated_image_rectangles_removed": 1
+    },
+    "warnings": [
+      "These are extraction signals, not findings about the PDF design.",
+      "A simple candidate can still contain missed relationships or text.",
+      "Native direction says nothing about the orientation of image text.",
+      "Image skew, perspective, arrows and table structure are not resolved.",
+      "No automatic quality score or semantic correctness is asserted."
+    ]
+  }
+}

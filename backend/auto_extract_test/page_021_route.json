@@ -1,0 +1,60 @@
+{
+  "page_number": 21,
+  "route": "hybrid_layout",
+  "decision_is_heuristic": true,
+  "signals": {
+    "native_characters": 701,
+    "native_lines": 46,
+    "page_rotation_metadata": 0,
+    "upright_native_character_fraction": 1.0,
+    "has_non_horizontal_native_text": false,
+    "parallel_text_rows": 11,
+    "image_regions_without_native_text": [
+      [
+        0.0,
+        74.92002868652344,
+        51.56700134277344,
+        126.4000244140625
+      ],
+      [
+        983.489990234375,
+        78.21002197265625,
+        1251.4100341796875,
+        139.83001708984375
+      ],
+      [
+        86.60800170898438,
+        78.21002197265625,
+        810.2879638671875,
+        139.83001708984375
+      ],
+      [
+        838.6599731445312,
+        78.20999145507812,
+        957.3899536132812,
+        126.79998779296875
+      ]
+    ],
+    "footer_images_excluded_from_routing": 1
+  },
+  "warnings": [
+    "These are extraction signals, not findings about the PDF design.",
+    "A simple candidate can still contain missed relationships or text.",
+    "Native direction says nothing about the orientation of image text.",
+    "Image skew, perspective, arrows and table structure are not resolved.",
+    "No automatic quality score or semantic correctness is asserted."
+  ],
+  "extraction_counts": {
+    "native_lines": 46,
+    "supplementary_ocr_segments": 3,
+    "ocr_words_seen": 110,
+    "ocr_words_rejected": 98
+  },
+  "region_counts": {
+    "source_blocks": 49,
+    "regions": 22
+  },
+  "candidate_pairs": 6,
+  "status": "EXTRACTED_NOT_SEMANTICALLY_VERIFIED",
+  "review_gate": "check_ocr_and_layout_before_integration"
+}

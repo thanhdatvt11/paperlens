@@ -1,0 +1,94 @@
+{
+  "backend": "D:\\paperlens\\backend",
+  "history": "C:\\Users\\thanh\\AppData\\Roaming\\Code\\User\\History",
+  "backup": "D:\\paperlens\\backend\\vscode_recovery_backup_20261029_101018_816323.zip",
+  "restored_missing_files": [
+    {
+      "file": "app\\adapters\\ollama_adapter.py",
+      "history_snapshot": "C:\\Users\\thanh\\AppData\\Roaming\\Code\\User\\History\\-1f835f6\\1oOq.py",
+      "saved_at_local": "2026-10-28T15:47:25.088000"
+    },
+    {
+      "file": "app\\controllers\\document_controller.py",
+      "history_snapshot": "C:\\Users\\thanh\\AppData\\Roaming\\Code\\User\\History\\-5ad5fb3d\\r0YL.py",
+      "saved_at_local": "2026-10-26T16:57:52.650000"
+    },
+    {
+      "file": "app\\controllers\\health_controller.py",
+      "history_snapshot": "C:\\Users\\thanh\\AppData\\Roaming\\Code\\User\\History\\3090d344\\6fEl.py",
+      "saved_at_local": "2026-10-26T14:43:36.039000"
+    },
+    {
+      "file": "app\\core\\database.py",
+      "history_snapshot": "C:\\Users\\thanh\\AppData\\Roaming\\Code\\User\\History\\1fb3b080\\FEx1.py",
+      "saved_at_local": "2026-10-26T16:03:03.224000"
+    },
+    {
+      "file": "app\\main.py",
+      "history_snapshot": "C:\\Users\\thanh\\AppData\\Roaming\\Code\\User\\History\\4fc9f04a\\4ceO.py",
+      "saved_at_local": "2026-10-26T16:09:00.275000"
+    },
+    {
+      "file": "app\\models\\__init__.py",
+      "history_snapshot": "C:\\Users\\thanh\\AppData\\Roaming\\Code\\User\\History\\-1bacbdaa\\0I9E.py",
+      "saved_at_local": "2026-10-26T15:40:22.766000"
+    },
+    {
+      "file": "app\\models\\document.py",
+      "history_snapshot": "C:\\Users\\thanh\\AppData\\Roaming\\Code\\User\\History\\29cc9a2b\\fueV.py",
+      "saved_at_local": "2026-10-26T15:42:13.685000"
+    },
+    {
+      "file": "app\\pdf_processing.py",
+      "history_snapshot": "C:\\Users\\thanh\\AppData\\Roaming\\Code\\User\\History\\-7e0372dd\\6bIk.py",
+      "saved_at_local": "2026-10-28T16:43:54.167000"
+    },
+    {
+      "file": "app\\repositories\\document_repository.py",
+      "history_snapshot": "C:\\Users\\thanh\\AppData\\Roaming\\Code\\User\\History\\4dd32f7c\\mk3A.py",
+      "saved_at_local": "2026-10-26T16:28:26.615000"
+    },
+    {
+      "file": "app\\repositories\\review_run_repository.py",
+      "history_snapshot": "C:\\Users\\thanh\\AppData\\Roaming\\Code\\User\\History\\13b33f05\\9GKV.py",
+      "saved_at_local": "2026-10-27T14:21:59.213000"
+    },
+    {
+      "file": "app\\review_worker.py",
+      "history_snapshot": "C:\\Users\\thanh\\AppData\\Roaming\\Code\\User\\History\\-5c1d661a\\QUAm.py",
+      "saved_at_local": "2026-10-28T13:49:50.068000"
+    },
+    {
+      "file": "app\\services\\document_review_service_BackUp.py",
+      "history_snapshot": "C:\\Users\\thanh\\AppData\\Roaming\\Code\\User\\History\\-69b1e4f5\\jZWQ.py",
+      "saved_at_local": "2026-10-28T14:29:43.958000"
+    }
+  ],
+  "existing_files_preserved": [
+    "app\\schemas\\document_schema.py",
+    "app\\services\\ai_service.py",
+    "app\\services\\document_review_service.py",
+    "app\\services\\document_service.py"
+  ],
+  "no_valid_snapshot": [],
+  "missing_critical_files": [],
+  "missing_modules": [
+    {
+      "module": "app.core.config",
+      "imported_by": [
+        "app\\adapters\\ollama_adapter.py",
+        "app\\review_worker.py"
+      ]
+    },
+    {
+      "module": "app.repositories.version_repository",
+      "imported_by": [
+        "app\\services\\ai_service.py",
+        "app\\services\\document_service.py"
+      ]
+    }
+  ],
+  "syntax_errors": [],
+  "warnings": [],
+  "note": "Original snapshots were not modified. Existing source was not overwritten. No database or model access. Static audit does not prove full runtime compatibility."
+}

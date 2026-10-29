@@ -1,0 +1,269 @@
+{
+  "scope": "PAGE_REGION_PROBE",
+  "page_number": 4,
+  "model": "qwen3:1.7b",
+  "instruction": "Đánh giá độ rõ ràng và tính chính xác trong cách diễn đạt, phù hợp với slide khóa học. Chỉ nêu vấn đề có bằng chứng trong trang.",
+  "summary": "Trang 4 chứa các vùng mô tả các chủ đề liên quan đến công nghệ AI agents, tích hợp, và các công cụ hỗ trợ, cùng với các mục số từ 01 đến 07.",
+  "key_points": [
+    {
+      "point": "Các chủ đề liên quan đến AI agents, tích hợp, và công cụ hỗ trợ được trình bày trong trang 4.",
+      "region_ids": [
+        "R001",
+        "R002",
+        "R003",
+        "R004"
+      ],
+      "evidence": [
+        {
+          "page_number": 4,
+          "region_id": "R001",
+          "block_id": "B0001",
+          "quote": "What Powers an Agentic Workflow?",
+          "bbox": [
+            83.88,
+            77.03999999999999,
+            1098.36,
+            139.32
+          ],
+          "source": "ocr",
+          "needs_review": true
+        },
+        {
+          "page_number": 4,
+          "region_id": "R002",
+          "block_id": "B0002",
+          "quote": "Prompt Engineering ",
+          "bbox": [
+            751.9199829101562,
+            180.52999877929688,
+            986.4920043945312,
+            207.2899932861328
+          ],
+          "source": "native",
+          "needs_review": false
+        },
+        {
+          "page_number": 4,
+          "region_id": "R003",
+          "block_id": "B0003",
+          "quote": "Integrations",
+          "bbox": [
+            1094.68994140625,
+            180.52999877929688,
+            1230.7935791015625,
+            207.2899932861328
+          ],
+          "source": "native",
+          "needs_review": false
+        },
+        {
+          "page_number": 4,
+          "region_id": "R004",
+          "block_id": "B0004",
+          "quote": "AI Agents ",
+          "bbox": [
+            216.88999938964844,
+            181.62997436523438,
+            334.56201171875,
+            208.3899688720703
+          ],
+          "source": "native",
+          "needs_review": false
+        }
+      ]
+    },
+    {
+      "point": "Các mục số từ 01 đến 07 được liệt kê trong trang 4.",
+      "region_ids": [
+        "R010",
+        "R011",
+        "R012",
+        "R013"
+      ],
+      "evidence": [
+        {
+          "page_number": 4,
+          "region_id": "R010",
+          "block_id": "B0015",
+          "quote": "01",
+          "bbox": [
+            177.6699981689453,
+            431.1099853515625,
+            204.093994140625,
+            457.8699951171875
+          ],
+          "source": "native",
+          "needs_review": false
+        },
+        {
+          "page_number": 4,
+          "region_id": "R011",
+          "block_id": "B0016",
+          "quote": "02",
+          "bbox": [
+            326.1600036621094,
+            431.1099853515625,
+            352.583984375,
+            457.8699951171875
+          ],
+          "source": "native",
+          "needs_review": false
+        },
+        {
+          "page_number": 4,
+          "region_id": "R012",
+          "block_id": "B0017",
+          "quote": "03",
+          "bbox": [
+            474.6199951171875,
+            431.1099853515625,
+            501.04400634765625,
+            457.8699951171875
+          ],
+          "source": "native",
+          "needs_review": false
+        },
+        {
+          "page_number": 4,
+          "region_id": "R013",
+          "block_id": "B0018",
+          "quote": "04",
+          "bbox": [
+            623.1099853515625,
+            431.1099853515625,
+            649.5339965820312,
+            457.8699951171875
+          ],
+          "source": "native",
+          "needs_review": false
+        }
+      ]
+    },
+    {
+      "point": "Trang 4 cũng đề cập đến các công cụ hỗ trợ như Fine-tune agent instructions và Connect to existing infrastructure.",
+      "region_ids": [
+        "R008",
+        "R009"
+      ],
+      "evidence": [
+        {
+          "page_number": 4,
+          "region_id": "R008",
+          "block_id": "B0008",
+          "quote": "Fine-tune agent ",
+          "bbox": [
+            798.1400146484375,
+            262.1800231933594,
+            971.6420288085938,
+            288.9400329589844
+          ],
+          "source": "native",
+          "needs_review": false
+        },
+        {
+          "page_number": 4,
+          "region_id": "R008",
+          "block_id": "B0012",
+          "quote": "instructions",
+          "bbox": [
+            821.5399780273438,
+            290.9800109863281,
+            941.5400390625,
+            317.7400207519531
+          ],
+          "source": "native",
+          "needs_review": false
+        },
+        {
+          "page_number": 4,
+          "region_id": "R009",
+          "block_id": "B0009",
+          "quote": "Connect to existing ",
+          "bbox": [
+            1077.9100341796875,
+            262.1800231933594,
+            1287.0518798828125,
+            288.9400329589844
+          ],
+          "source": "native",
+          "needs_review": false
+        },
+        {
+          "page_number": 4,
+          "region_id": "R009",
+          "block_id": "B0013",
+          "quote": "infrastructure",
+          "bbox": [
+            1109.8299560546875,
+            290.9800109863281,
+            1248.525634765625,
+            317.7400207519531
+          ],
+          "source": "native",
+          "needs_review": false
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "severity": "major",
+      "comment": "Region R001 ('What Powers an Agentic Workflow?') is not clearly connected to the main topic of the slide, which is about AI agents and their workflows. The title is too vague and lacks context.",
+      "suggestion": "Add a brief explanation or context to the title to clarify its relevance to the slide content.",
+      "region_ids": [
+        "R001"
+      ],
+      "evidence": [
+        {
+          "page_number": 4,
+          "region_id": "R001",
+          "block_id": "B0001",
+          "quote": "What Powers an Agentic Workflow?",
+          "bbox": [
+            83.88,
+            77.03999999999999,
+            1098.36,
+            139.32
+          ],
+          "source": "ocr",
+          "needs_review": true
+        }
+      ]
+    },
+    {
+      "severity": "minor",
+      "comment": "Region R013 ('04') is not properly formatted and does not contribute to the visual hierarchy of the slide. It appears to be a numbered list that is not integrated into the main content.",
+      "suggestion": "Remove or reposition the numbered list to enhance the visual structure of the slide.",
+      "region_ids": [
+        "R013"
+      ],
+      "evidence": [
+        {
+          "page_number": 4,
+          "region_id": "R013",
+          "block_id": "B0018",
+          "quote": "04",
+          "bbox": [
+            623.1099853515625,
+            431.1099853515625,
+            649.5339965820312,
+            457.8699951171875
+          ],
+          "source": "native",
+          "needs_review": false
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "output_schema_valid": true,
+    "references_valid": true,
+    "semantic_correctness_verified": false
+  },
+  "warnings": [
+    "This is one page, not a whole-document review.",
+    "Evidence proves source identity, not semantic support.",
+    "OCR evidence still requires visual checking.",
+    "Layout relations are candidates, not verified facts."
+  ]
+}

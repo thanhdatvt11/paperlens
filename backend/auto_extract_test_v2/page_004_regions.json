@@ -1,0 +1,1748 @@
+{
+  "page_number": 4,
+  "page_size": {
+    "width": 1440.0,
+    "height": 810.0
+  },
+  "coordinate_system": "PDF points, origin at top-left",
+  "counts": {
+    "source_blocks": 38,
+    "regions": 24
+  },
+  "coverage": {
+    "all_blocks_assigned_once": true,
+    "semantic_coverage_verified": false
+  },
+  "regions": [
+    {
+      "region_id": "R001",
+      "text": "What Powers an Agentic Workflow?",
+      "bbox": [
+        83.88,
+        77.03999999999999,
+        1098.36,
+        139.32
+      ],
+      "block_ids": [
+        "B0001"
+      ],
+      "sources": [
+        "ocr"
+      ],
+      "line_height": 62.28,
+      "needs_review": true,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R002",
+      "text": "Prompt Engineering",
+      "bbox": [
+        751.9199829101562,
+        180.52999877929688,
+        986.4920043945312,
+        207.2899932861328
+      ],
+      "block_ids": [
+        "B0002"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 26.759994506835938,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R003",
+      "text": "Integrations",
+      "bbox": [
+        1094.68994140625,
+        180.52999877929688,
+        1230.7935791015625,
+        207.2899932861328
+      ],
+      "block_ids": [
+        "B0003"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 26.759994506835938,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R004",
+      "text": "AI Agents",
+      "bbox": [
+        216.88999938964844,
+        181.62997436523438,
+        334.56201171875,
+        208.3899688720703
+      ],
+      "block_ids": [
+        "B0004"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 26.759994506835938,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R005",
+      "text": "Tools",
+      "bbox": [
+        537.6699829101562,
+        181.62997436523438,
+        601.2460327148438,
+        208.3899688720703
+      ],
+      "block_ids": [
+        "B0005"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 26.759994506835938,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R006",
+      "text": "Autonomous systems\nusing tools and\nworkflows",
+      "bbox": [
+        175.72999572753906,
+        262.1800231933594,
+        411.2659606933594,
+        346.5400085449219
+      ],
+      "block_ids": [
+        "B0006",
+        "B0010",
+        "B0014"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 26.760009765625,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R007",
+      "text": "Provide access to\nexternal data",
+      "bbox": [
+        490.510009765625,
+        262.1800231933594,
+        686.0919799804688,
+        317.7400207519531
+      ],
+      "block_ids": [
+        "B0007",
+        "B0011"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 26.760009765625,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R008",
+      "text": "Fine-tune agent\ninstructions",
+      "bbox": [
+        798.1400146484375,
+        262.1800231933594,
+        971.6420288085938,
+        317.7400207519531
+      ],
+      "block_ids": [
+        "B0008",
+        "B0012"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 26.760009765625,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R009",
+      "text": "Connect to existing\ninfrastructure",
+      "bbox": [
+        1077.9100341796875,
+        262.1800231933594,
+        1287.0518798828125,
+        317.7400207519531
+      ],
+      "block_ids": [
+        "B0009",
+        "B0013"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 26.760009765625,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R010",
+      "text": "01",
+      "bbox": [
+        177.6699981689453,
+        431.1099853515625,
+        204.093994140625,
+        457.8699951171875
+      ],
+      "block_ids": [
+        "B0015"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 26.760009765625,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R011",
+      "text": "02",
+      "bbox": [
+        326.1600036621094,
+        431.1099853515625,
+        352.583984375,
+        457.8699951171875
+      ],
+      "block_ids": [
+        "B0016"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 26.760009765625,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R012",
+      "text": "03",
+      "bbox": [
+        474.6199951171875,
+        431.1099853515625,
+        501.04400634765625,
+        457.8699951171875
+      ],
+      "block_ids": [
+        "B0017"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 26.760009765625,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R013",
+      "text": "04",
+      "bbox": [
+        623.1099853515625,
+        431.1099853515625,
+        649.5339965820312,
+        457.8699951171875
+      ],
+      "block_ids": [
+        "B0018"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 26.760009765625,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R014",
+      "text": "05",
+      "bbox": [
+        771.5800170898438,
+        431.1099853515625,
+        798.0040283203125,
+        457.8699951171875
+      ],
+      "block_ids": [
+        "B0019"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 26.760009765625,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R015",
+      "text": "06",
+      "bbox": [
+        920.0599975585938,
+        431.1099853515625,
+        946.4840087890625,
+        457.8699951171875
+      ],
+      "block_ids": [
+        "B0020"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 26.760009765625,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R016",
+      "text": "07",
+      "bbox": [
+        1068.530029296875,
+        431.1099853515625,
+        1094.9539794921875,
+        457.8699951171875
+      ],
+      "block_ids": [
+        "B0021"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 26.760009765625,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R017",
+      "text": "Enable natural\nlanguage\nunderstanding and\ngeneration",
+      "bbox": [
+        336.82000732421875,
+        509.4200134277344,
+        541.3317260742188,
+        622.6099853515625
+      ],
+      "block_ids": [
+        "B0022",
+        "B0023",
+        "B0025",
+        "B0028"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 26.759963989257812,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R018",
+      "text": "Improve decision\naccuracy",
+      "bbox": [
+        643.9400024414062,
+        566.2300415039062,
+        830.6119995117188,
+        621.7899780273438
+      ],
+      "block_ids": [
+        "B0024",
+        "B0027"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 26.75994873046875,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R019",
+      "text": "Teamwork for\ncomplex solutions",
+      "bbox": [
+        937.0599975585938,
+        568.06005859375,
+        1126.7799072265625,
+        623.6199951171875
+      ],
+      "block_ids": [
+        "B0026",
+        "B0029"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 26.75994873046875,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R020",
+      "text": "Large Language\nModels (LLMs)",
+      "bbox": [
+        328.9200134277344,
+        669.6500244140625,
+        519.5519409179688,
+        725.2079467773438
+      ],
+      "block_ids": [
+        "B0030",
+        "B0033"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 26.75994873046875,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R021",
+      "text": "Feedback\nMechanisms",
+      "bbox": [
+        653.5900268554688,
+        669.6500244140625,
+        796.5340576171875,
+        725.2079467773438
+      ],
+      "block_ids": [
+        "B0031",
+        "B0034"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 26.75994873046875,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R022",
+      "text": "Multiagent\nCollaboration",
+      "bbox": [
+        937.8499755859375,
+        669.6500244140625,
+        1091.11376953125,
+        725.2079467773438
+      ],
+      "block_ids": [
+        "B0032",
+        "B0035"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 26.75994873046875,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R023",
+      "text": "SUCCESS AIMERS\nTechnical and Academic Training",
+      "bbox": [
+        100.08,
+        763.92,
+        295.56,
+        800.28
+      ],
+      "block_ids": [
+        "B0036",
+        "B0038"
+      ],
+      "sources": [
+        "ocr"
+      ],
+      "line_height": 13.139999999999986,
+      "needs_review": true,
+      "grouping": "geometric_heuristic"
+    },
+    {
+      "region_id": "R024",
+      "text": "Copyright © Success Aimers. All rights reserved.",
+      "bbox": [
+        925.489990234375,
+        766.8300170898438,
+        1307.33837890625,
+        786.9000244140625
+      ],
+      "block_ids": [
+        "B0037"
+      ],
+      "sources": [
+        "native"
+      ],
+      "line_height": 20.07000732421875,
+      "needs_review": false,
+      "grouping": "geometric_heuristic"
+    }
+  ],
+  "relation_candidates": [
+    {
+      "region_ids": [
+        "R002",
+        "R008"
+      ],
+      "basis": "mutual_nearest_vertical_alignment",
+      "status": "candidate_only",
+      "semantic_relationship_verified": false,
+      "requires_visual_check": true
+    },
+    {
+      "region_ids": [
+        "R003",
+        "R009"
+      ],
+      "basis": "mutual_nearest_vertical_alignment",
+      "status": "candidate_only",
+      "semantic_relationship_verified": false,
+      "requires_visual_check": true
+    },
+    {
+      "region_ids": [
+        "R004",
+        "R006"
+      ],
+      "basis": "mutual_nearest_vertical_alignment",
+      "status": "candidate_only",
+      "semantic_relationship_verified": false,
+      "requires_visual_check": true
+    },
+    {
+      "region_ids": [
+        "R005",
+        "R007"
+      ],
+      "basis": "mutual_nearest_vertical_alignment",
+      "status": "candidate_only",
+      "semantic_relationship_verified": false,
+      "requires_visual_check": true
+    },
+    {
+      "region_ids": [
+        "R017",
+        "R020"
+      ],
+      "basis": "mutual_nearest_vertical_alignment",
+      "status": "candidate_only",
+      "semantic_relationship_verified": false,
+      "requires_visual_check": true
+    },
+    {
+      "region_ids": [
+        "R018",
+        "R021"
+      ],
+      "basis": "mutual_nearest_vertical_alignment",
+      "status": "candidate_only",
+      "semantic_relationship_verified": false,
+      "requires_visual_check": true
+    },
+    {
+      "region_ids": [
+        "R019",
+        "R022"
+      ],
+      "basis": "mutual_nearest_vertical_alignment",
+      "status": "candidate_only",
+      "semantic_relationship_verified": false,
+      "requires_visual_check": true
+    }
+  ],
+  "source_blocks": {
+    "B0001": {
+      "text": "What Powers an Agentic Workflow?",
+      "bbox": [
+        83.88,
+        77.03999999999999,
+        1098.36,
+        139.32
+      ],
+      "source": "ocr",
+      "confidence": 80.28,
+      "needs_review": true,
+      "words": [
+        {
+          "text": "What",
+          "bbox": [
+            83.88,
+            77.75999999999999,
+            228.6,
+            126.72
+          ],
+          "confidence": 80.278534
+        },
+        {
+          "text": "Powers",
+          "bbox": [
+            250.92,
+            79.92,
+            458.28,
+            126.72
+          ],
+          "confidence": 95.313225
+        },
+        {
+          "text": "an",
+          "bbox": [
+            479.52,
+            91.44,
+            543.24,
+            126.72
+          ],
+          "confidence": 92.944687
+        },
+        {
+          "text": "Agentic",
+          "bbox": [
+            563.4,
+            78.84,
+            780.8399999999999,
+            139.32
+          ],
+          "confidence": 91.952278
+        },
+        {
+          "text": "Workflow?",
+          "bbox": [
+            799.92,
+            77.03999999999999,
+            1098.36,
+            126.72
+          ],
+          "confidence": 96.320625
+        }
+      ]
+    },
+    "B0002": {
+      "text": "Prompt Engineering ",
+      "bbox": [
+        751.9199829101562,
+        180.52999877929688,
+        986.4920043945312,
+        207.2899932861328
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0003": {
+      "text": "Integrations",
+      "bbox": [
+        1094.68994140625,
+        180.52999877929688,
+        1230.7935791015625,
+        207.2899932861328
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0004": {
+      "text": "AI Agents ",
+      "bbox": [
+        216.88999938964844,
+        181.62997436523438,
+        334.56201171875,
+        208.3899688720703
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0005": {
+      "text": "Tools",
+      "bbox": [
+        537.6699829101562,
+        181.62997436523438,
+        601.2460327148438,
+        208.3899688720703
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0006": {
+      "text": "Autonomous systems ",
+      "bbox": [
+        175.72999572753906,
+        262.1800231933594,
+        411.2659606933594,
+        288.9400329589844
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0007": {
+      "text": "Provide access to ",
+      "bbox": [
+        490.510009765625,
+        262.1800231933594,
+        686.0919799804688,
+        288.9400329589844
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0008": {
+      "text": "Fine-tune agent ",
+      "bbox": [
+        798.1400146484375,
+        262.1800231933594,
+        971.6420288085938,
+        288.9400329589844
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0009": {
+      "text": "Connect to existing ",
+      "bbox": [
+        1077.9100341796875,
+        262.1800231933594,
+        1287.0518798828125,
+        288.9400329589844
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0010": {
+      "text": "using tools and ",
+      "bbox": [
+        209.80999755859375,
+        290.9800109863281,
+        376.9420166015625,
+        317.7400207519531
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0011": {
+      "text": "external data",
+      "bbox": [
+        515.8300170898438,
+        290.9800109863281,
+        653.884033203125,
+        317.7400207519531
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0012": {
+      "text": "instructions",
+      "bbox": [
+        821.5399780273438,
+        290.9800109863281,
+        941.5400390625,
+        317.7400207519531
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0013": {
+      "text": "infrastructure",
+      "bbox": [
+        1109.8299560546875,
+        290.9800109863281,
+        1248.525634765625,
+        317.7400207519531
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0014": {
+      "text": "workflows",
+      "bbox": [
+        238.00999450683594,
+        319.7799987792969,
+        342.2900085449219,
+        346.5400085449219
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0015": {
+      "text": "01",
+      "bbox": [
+        177.6699981689453,
+        431.1099853515625,
+        204.093994140625,
+        457.8699951171875
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0016": {
+      "text": "02",
+      "bbox": [
+        326.1600036621094,
+        431.1099853515625,
+        352.583984375,
+        457.8699951171875
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0017": {
+      "text": "03",
+      "bbox": [
+        474.6199951171875,
+        431.1099853515625,
+        501.04400634765625,
+        457.8699951171875
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0018": {
+      "text": "04",
+      "bbox": [
+        623.1099853515625,
+        431.1099853515625,
+        649.5339965820312,
+        457.8699951171875
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0019": {
+      "text": "05",
+      "bbox": [
+        771.5800170898438,
+        431.1099853515625,
+        798.0040283203125,
+        457.8699951171875
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0020": {
+      "text": "06",
+      "bbox": [
+        920.0599975585938,
+        431.1099853515625,
+        946.4840087890625,
+        457.8699951171875
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0021": {
+      "text": "07",
+      "bbox": [
+        1068.530029296875,
+        431.1099853515625,
+        1094.9539794921875,
+        457.8699951171875
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0022": {
+      "text": "Enable natural ",
+      "bbox": [
+        358.7799987792969,
+        509.4200134277344,
+        519.171875,
+        536.1799926757812
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0023": {
+      "text": "language ",
+      "bbox": [
+        386.8599853515625,
+        538.2200317382812,
+        491.09185791015625,
+        564.97998046875
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0024": {
+      "text": "Improve decision ",
+      "bbox": [
+        643.9400024414062,
+        566.2300415039062,
+        830.6119995117188,
+        592.989990234375
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0025": {
+      "text": "understanding and ",
+      "bbox": [
+        336.82000732421875,
+        566.998291015625,
+        541.3317260742188,
+        593.7850341796875
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0026": {
+      "text": "Teamwork for ",
+      "bbox": [
+        959.02001953125,
+        568.06005859375,
+        1111.8758544921875,
+        594.8200073242188
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0027": {
+      "text": "accuracy",
+      "bbox": [
+        686.5399780273438,
+        595.030029296875,
+        781.7000122070312,
+        621.7899780273438
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0028": {
+      "text": "generation",
+      "bbox": [
+        379.6600036621094,
+        595.8500366210938,
+        491.8839111328125,
+        622.6099853515625
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0029": {
+      "text": "complex solutions",
+      "bbox": [
+        937.0599975585938,
+        596.8600463867188,
+        1126.7799072265625,
+        623.6199951171875
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0030": {
+      "text": "Large Language ",
+      "bbox": [
+        328.9200134277344,
+        669.6500244140625,
+        519.5519409179688,
+        696.4099731445312
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0031": {
+      "text": "Feedback ",
+      "bbox": [
+        670.3900146484375,
+        669.6500244140625,
+        786.6221313476562,
+        696.4099731445312
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0032": {
+      "text": "Multiagent ",
+      "bbox": [
+        955.1300048828125,
+        669.6500244140625,
+        1080.7938232421875,
+        696.4099731445312
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0033": {
+      "text": "Models (LLMs)",
+      "bbox": [
+        337.55999755859375,
+        698.447998046875,
+        504.6719970703125,
+        725.2079467773438
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0034": {
+      "text": "Mechanisms",
+      "bbox": [
+        653.5900268554688,
+        698.447998046875,
+        796.5340576171875,
+        725.2079467773438
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0035": {
+      "text": "Collaboration",
+      "bbox": [
+        937.8499755859375,
+        698.447998046875,
+        1091.11376953125,
+        725.2079467773438
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0036": {
+      "text": "SUCCESS AIMERS",
+      "bbox": [
+        100.08,
+        763.92,
+        295.56,
+        778.68
+      ],
+      "source": "ocr",
+      "confidence": 92.31,
+      "needs_review": true,
+      "words": [
+        {
+          "text": "SUCCESS",
+          "bbox": [
+            100.08,
+            763.92,
+            203.4,
+            778.68
+          ],
+          "confidence": 93.292107
+        },
+        {
+          "text": "AIMERS",
+          "bbox": [
+            210.6,
+            763.92,
+            295.56,
+            778.68
+          ],
+          "confidence": 92.310028
+        }
+      ]
+    },
+    "B0037": {
+      "text": "Copyright © Success Aimers. All rights reserved.",
+      "bbox": [
+        925.489990234375,
+        766.8300170898438,
+        1307.33837890625,
+        786.9000244140625
+      ],
+      "source": "native",
+      "confidence": null,
+      "needs_review": false
+    },
+    "B0038": {
+      "text": "Technical and Academic Training",
+      "bbox": [
+        104.03999999999999,
+        788.76,
+        289.8,
+        800.28
+      ],
+      "source": "ocr",
+      "confidence": 95.69,
+      "needs_review": true,
+      "words": [
+        {
+          "text": "Technical",
+          "bbox": [
+            104.03999999999999,
+            788.76,
+            156.96,
+            797.76
+          ],
+          "confidence": 95.692574
+        },
+        {
+          "text": "and",
+          "bbox": [
+            161.28,
+            788.76,
+            181.44,
+            797.76
+          ],
+          "confidence": 95.982063
+        },
+        {
+          "text": "Academic",
+          "bbox": [
+            185.04,
+            788.76,
+            240.84,
+            797.76
+          ],
+          "confidence": 96.56382
+        },
+        {
+          "text": "Training",
+          "bbox": [
+            244.79999999999998,
+            788.76,
+            289.8,
+            800.28
+          ],
+          "confidence": 96.847046
+        }
+      ]
+    }
+  },
+  "source_extraction": {
+    "settings": {
+      "dpi": 200,
+      "min_confidence": 75.0,
+      "native_overlap": 0.35,
+      "language": "eng"
+    },
+    "warnings": [
+      "Position sorting is not semantic reading order.",
+      "All OCR additions require visual review, even with high confidence.",
+      "Overlap filtering is heuristic; rejected candidates are retained.",
+      "No title-description, column, arrow, or table relationships inferred.",
+      "Bounding boxes and source labels must not be treated as PDF prose.",
+      "Some OCR candidates were rejected for low confidence."
+    ],
+    "rejected_ocr_words": [
+      {
+        "text": "mM",
+        "bbox": [
+          0.0,
+          74.88,
+          51.839999999999996,
+          126.72
+        ],
+        "confidence": 0.541779,
+        "reason": "low_ocr_confidence",
+        "native_overlap": 0.0
+      },
+      {
+        "text": "Autonomous",
+        "bbox": [
+          175.68,
+          266.76,
+          309.59999999999997,
+          284.4
+        ],
+        "confidence": 96.542442,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9996258209753822
+      },
+      {
+        "text": "systems",
+        "bbox": [
+          317.88,
+          267.48,
+          403.91999999999996,
+          289.08
+        ],
+        "confidence": 96.426437,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9935196344408924
+      },
+      {
+        "text": "Provide",
+        "bbox": [
+          492.47999999999996,
+          266.76,
+          570.6,
+          284.4
+        ],
+        "confidence": 95.990639,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9999986472352592
+      },
+      {
+        "text": "access",
+        "bbox": [
+          579.24,
+          271.44,
+          652.3199999999999,
+          284.4
+        ],
+        "confidence": 96.010796,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9999995745206303
+      },
+      {
+        "text": "to",
+        "bbox": [
+          660.24,
+          267.48,
+          678.9599999999999,
+          284.4
+        ],
+        "confidence": 96.114761,
+        "reason": "overlaps_native_text",
+        "native_overlap": 1.0
+      },
+      {
+        "text": "Fine-tune",
+        "bbox": [
+          799.92,
+          266.76,
+          897.8399999999999,
+          284.4
+        ],
+        "confidence": 96.434616,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9999995491763645
+      },
+      {
+        "text": "agent",
+        "bbox": [
+          906.8399999999999,
+          267.48,
+          964.8,
+          289.08
+        ],
+        "confidence": 96.680534,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9935188661824959
+      },
+      {
+        "text": "Connect",
+        "bbox": [
+          1078.92,
+          266.4,
+          1167.12,
+          284.4
+        ],
+        "confidence": 96.560799,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9999994463931426
+      },
+      {
+        "text": "to",
+        "bbox": [
+          1174.32,
+          267.48,
+          1193.04,
+          284.4
+        ],
+        "confidence": 96.612915,
+        "reason": "overlaps_native_text",
+        "native_overlap": 1.0
+      },
+      {
+        "text": "existing",
+        "bbox": [
+          1200.96,
+          266.76,
+          1279.08,
+          289.08
+        ],
+        "confidence": 96.285225,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9937285755832991
+      },
+      {
+        "text": "using",
+        "bbox": [
+          211.32,
+          295.56,
+          265.68,
+          317.88
+        ],
+        "confidence": 96.443817,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9937283699143735
+      },
+      {
+        "text": "tools",
+        "bbox": [
+          273.96,
+          295.56,
+          323.64,
+          313.2
+        ],
+        "confidence": 96.504906,
+        "reason": "overlaps_native_text",
+        "native_overlap": 1.0
+      },
+      {
+        "text": "and",
+        "bbox": [
+          331.92,
+          295.56,
+          368.64,
+          313.2
+        ],
+        "confidence": 96.345055,
+        "reason": "overlaps_native_text",
+        "native_overlap": 1.0
+      },
+      {
+        "text": "external",
+        "bbox": [
+          516.6,
+          295.56,
+          599.4,
+          313.2
+        ],
+        "confidence": 95.899704,
+        "reason": "overlaps_native_text",
+        "native_overlap": 1.0
+      },
+      {
+        "text": "data",
+        "bbox": [
+          608.76,
+          295.56,
+          652.68,
+          313.2
+        ],
+        "confidence": 96.917473,
+        "reason": "overlaps_native_text",
+        "native_overlap": 1.0
+      },
+      {
+        "text": "instructions",
+        "bbox": [
+          822.9599999999999,
+          295.56,
+          940.68,
+          313.2
+        ],
+        "confidence": 96.423691,
+        "reason": "overlaps_native_text",
+        "native_overlap": 1.0
+      },
+      {
+        "text": "infrastructure",
+        "bbox": [
+          1111.32,
+          295.2,
+          1247.3999999999999,
+          313.2
+        ],
+        "confidence": 96.460396,
+        "reason": "overlaps_native_text",
+        "native_overlap": 1.0
+      },
+      {
+        "text": "workflows",
+        "bbox": [
+          237.95999999999998,
+          324.0,
+          341.28,
+          342.0
+        ],
+        "confidence": 96.519287,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9995161079409693
+      },
+      {
+        "text": "ep",
+        "bbox": [
+          141.12,
+          423.71999999999997,
+          389.52,
+          464.76
+        ],
+        "confidence": 68.406105,
+        "reason": "low_ocr_confidence",
+        "native_overlap": 0.13872530512753584
+      },
+      {
+        "text": "€",
+        "bbox": [
+          298.8,
+          422.28,
+          328.32,
+          480.24
+        ],
+        "confidence": 26.85585,
+        "reason": "low_ocr_confidence",
+        "native_overlap": 0.03378282979233917
+      },
+      {
+        "text": "ap",
+        "bbox": [
+          586.4399999999999,
+          423.71999999999997,
+          983.16,
+          464.76
+        ],
+        "confidence": 44.52935,
+        "reason": "low_ocr_confidence",
+        "native_overlap": 0.13029112084854727
+      },
+      {
+        "text": "<p",
+        "bbox": [
+          744.12,
+          422.28,
+          831.6,
+          480.24
+        ],
+        "confidence": 37.309647,
+        "reason": "low_ocr_confidence",
+        "native_overlap": 0.13945942224915686
+      },
+      {
+        "text": "«DD",
+        "bbox": [
+          884.16,
+          422.28,
+          981.36,
+          480.24
+        ],
+        "confidence": 0.0,
+        "reason": "low_ocr_confidence",
+        "native_overlap": 0.12551348002424115
+      },
+      {
+        "text": "Enable",
+        "bbox": [
+          360.71999999999997,
+          513.72,
+          432.35999999999996,
+          531.36
+        ],
+        "confidence": 96.590538,
+        "reason": "overlaps_native_text",
+        "native_overlap": 1.0
+      },
+      {
+        "text": "natural",
+        "bbox": [
+          441.35999999999996,
+          513.72,
+          510.84,
+          531.36
+        ],
+        "confidence": 96.758766,
+        "reason": "overlaps_native_text",
+        "native_overlap": 1.0
+      },
+      {
+        "text": "language",
+        "bbox": [
+          388.44,
+          542.52,
+          483.47999999999996,
+          564.84
+        ],
+        "confidence": 96.735451,
+        "reason": "overlaps_native_text",
+        "native_overlap": 1.0
+      },
+      {
+        "text": "understanding",
+        "bbox": [
+          338.4,
+          571.3199999999999,
+          487.44,
+          593.64
+        ],
+        "confidence": 96.471336,
+        "reason": "overlaps_native_text",
+        "native_overlap": 1.0
+      },
+      {
+        "text": "and",
+        "bbox": [
+          496.08,
+          571.3199999999999,
+          533.16,
+          588.9599999999999
+        ],
+        "confidence": 96.471336,
+        "reason": "overlaps_native_text",
+        "native_overlap": 1.0
+      },
+      {
+        "text": "Improve",
+        "bbox": [
+          646.1999999999999,
+          570.6,
+          729.72,
+          592.56
+        ],
+        "confidence": 94.5028,
+        "reason": "overlaps_native_text",
+        "native_overlap": 1.0
+      },
+      {
+        "text": "decision",
+        "bbox": [
+          737.64,
+          570.6,
+          822.6,
+          588.24
+        ],
+        "confidence": 96.322113,
+        "reason": "overlaps_native_text",
+        "native_overlap": 1.0
+      },
+      {
+        "text": "Teamwork",
+        "bbox": [
+          959.4,
+          572.4,
+          1071.0,
+          590.04
+        ],
+        "confidence": 96.375671,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9996022836207358
+      },
+      {
+        "text": "for",
+        "bbox": [
+          1078.2,
+          572.04,
+          1105.56,
+          590.04
+        ],
+        "confidence": 96.627556,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9940030282003874
+      },
+      {
+        "text": "generation",
+        "bbox": [
+          380.52,
+          600.12,
+          490.32,
+          622.4399999999999
+        ],
+        "confidence": 96.462013,
+        "reason": "overlaps_native_text",
+        "native_overlap": 1.0
+      },
+      {
+        "text": "accuracy",
+        "bbox": [
+          687.24,
+          604.0799999999999,
+          781.1999999999999,
+          621.72
+        ],
+        "confidence": 95.286118,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9999976042179713
+      },
+      {
+        "text": "complex",
+        "bbox": [
+          938.16,
+          601.1999999999999,
+          1026.36,
+          623.16
+        ],
+        "confidence": 96.711243,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9999983595990999
+      },
+      {
+        "text": "solutions",
+        "bbox": [
+          1033.92,
+          601.1999999999999,
+          1126.08,
+          618.84
+        ],
+        "confidence": 96.873886,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9999998767351767
+      },
+      {
+        "text": "Large",
+        "bbox": [
+          330.84,
+          674.28,
+          393.12,
+          696.24
+        ],
+        "confidence": 95.738358,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9999982015974219
+      },
+      {
+        "text": "Language",
+        "bbox": [
+          402.47999999999996,
+          674.28,
+          511.91999999999996,
+          696.24
+        ],
+        "confidence": 95.771179,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9999982435057618
+      },
+      {
+        "text": "Models",
+        "bbox": [
+          339.47999999999996,
+          702.72,
+          419.03999999999996,
+          720.36
+        ],
+        "confidence": 95.334702,
+        "reason": "overlaps_native_text",
+        "native_overlap": 1.0
+      },
+      {
+        "text": "(LLMs)",
+        "bbox": [
+          428.03999999999996,
+          702.36,
+          503.64,
+          725.04
+        ],
+        "confidence": 96.206161,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9999997577969748
+      },
+      {
+        "text": "Copyright",
+        "bbox": [
+          926.28,
+          769.68,
+          1002.24,
+          786.9599999999999
+        ],
+        "confidence": 95.818283,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9941925761060166
+      },
+      {
+        "text": "©",
+        "bbox": [
+          1007.28,
+          769.68,
+          1020.5999999999999,
+          783.36
+        ],
+        "confidence": 96.623512,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9890439348557051
+      },
+      {
+        "text": "Success",
+        "bbox": [
+          1026.0,
+          769.68,
+          1090.44,
+          783.36
+        ],
+        "confidence": 93.297005,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9999985553283032
+      },
+      {
+        "text": "Aimers.",
+        "bbox": [
+          1095.84,
+          770.04,
+          1153.44,
+          783.36
+        ],
+        "confidence": 92.089104,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9973552677856307
+      },
+      {
+        "text": "All",
+        "bbox": [
+          1159.9199999999998,
+          770.04,
+          1179.0,
+          783.0
+        ],
+        "confidence": 96.668365,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.99633343792425
+      },
+      {
+        "text": "rights",
+        "bbox": [
+          1185.84,
+          770.04,
+          1227.96,
+          786.9599999999999
+        ],
+        "confidence": 96.668365,
+        "reason": "overlaps_native_text",
+        "native_overlap": 0.9964565267256058
+      },
+      {
+        "text": "reserved",
+        "bbox": [
+          1234.44,
+          770.04,
+          1301.04,
+          783.36
+        ],
+        "confidence": 96.806206,
+        "reason": "overlaps_native_text",
+        "native_overlap": 1.0
+      },
+      {
+        "text": "SK",
+        "bbox": [
+          50.04,
+          757.4399999999999,
+          93.96,
+          801.36
+        ],
+        "confidence": 68.41066,
+        "reason": "low_ocr_confidence",
+        "native_overlap": 0.0
+      }
+    ]
+  },
+  "warnings": [
+    "Line grouping and region links are geometric heuristics.",
+    "A candidate link does not establish a title-description relation.",
+    "Original source blocks, including footer and OCR text, are retained.",
+    "Derived region text is not an original PDF quote; resolve block_ids.",
+    "No arrows, table cells, numbered sequences, or column semantics parsed.",
+    "Do not feed the entire JSON into a 4096-token model context."
+  ]
+}
