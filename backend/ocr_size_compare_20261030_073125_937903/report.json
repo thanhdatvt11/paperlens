@@ -1,0 +1,106 @@
+{
+  "scope": "OCR_SIZE_COMPARISON",
+  "input_directory": "D:\\paperlens\\backend\\ocr_language_compare_v5_20261030_072012_371890",
+  "document_id": 8,
+  "version_id": 5,
+  "source_sha256": "3494c4337317091f2f20a47e4803823983d262d3b2ca68f8f0f6fb8688410810",
+  "language": "vie+eng",
+  "tessdata_dir": "D:\\Download\\tessdata_best",
+  "psm": 6,
+  "oem": 1,
+  "resize_filter": "LANCZOS",
+  "database_accessed": false,
+  "application_modified": false,
+  "semantic_correctness_verified": false,
+  "note": "Same crops, three pixel sizes; no correction, automatic ranking or accuracy claim.",
+  "cases": [
+    {
+      "page": 2,
+      "region": "R005",
+      "original_image": "case_01_page_2_original.png",
+      "input_image_sha256": "39a010e719aada8081ff5f0c4160b77068896195771b28a2a65c7dc9ee6ba8de",
+      "results": [
+        {
+          "percent": 100,
+          "dimensions": [
+            1550,
+            262
+          ],
+          "image": "case_01_page_2_100.png",
+          "text": "1. Ngành thiết kế đồ hoa lờ gì?\n2. Nghệ thuột truyền thông thị giác (Visual Communication)\n3. Nghệ thuột giỏi quyết vốn đề (Problem Solver)",
+          "error": null,
+          "stderr": "",
+          "duration_seconds": 0.516
+        },
+        {
+          "percent": 75,
+          "dimensions": [
+            1162,
+            196
+          ],
+          "image": "case_01_page_2_75.png",
+          "text": "1. Ngành thiết kế đồ hoa lờ gì?\n2. Nghệ thuột truyền thông thị giác (Visual Communication)\n3. Nghệ thuột giỏi quyết vốn đề (Problem Solver)",
+          "error": null,
+          "stderr": "",
+          "duration_seconds": 0.437
+        },
+        {
+          "percent": 50,
+          "dimensions": [
+            775,
+            131
+          ],
+          "image": "case_01_page_2_50.png",
+          "text": "1. Ngành thiết kế đồ hoa là gì?\n2. Nghệ thuột truyền thông thị giác (Visual Communication)\n3. Nghệ thuột giải quyết vấn đề (Problem Solver)",
+          "error": null,
+          "stderr": "",
+          "duration_seconds": 0.484
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "region": "R006",
+      "original_image": "case_02_page_4_original.png",
+      "input_image_sha256": "ffe7c344b59417eebd54a0e4850799ea4ff47c2897824c8233f379b5794f080b",
+      "results": [
+        {
+          "percent": 100,
+          "dimensions": [
+            1118,
+            407
+          ],
+          "image": "case_02_page_4_100.png",
+          "text": "Thiết kế lờ liên kết sự sóng tạo vờ đổi mới\nnhằm xôy dựng cdc ý tưởng trở thành những\ngiỏi pháp hiệu quỏ va hốp dẫn người dùng\nhoặc khách hang.\n\nThiết kế phởi có một mục đích cụ thể nào đó.",
+          "error": null,
+          "stderr": "",
+          "duration_seconds": 0.579
+        },
+        {
+          "percent": 75,
+          "dimensions": [
+            838,
+            305
+          ],
+          "image": "case_02_page_4_75.png",
+          "text": "Thiết kế la liên kết sự sóng tạo và đổi mới\nnhằm xôy dựng cóc ý tưởng trở thành những\ngiỏi pháp hiệu qué va hdp dẫn người dùng\nhoặc khóch hàng.\n\nThiết kế phỏi có một mục đích cụ thể nào đó.",
+          "error": null,
+          "stderr": "",
+          "duration_seconds": 0.515
+        },
+        {
+          "percent": 50,
+          "dimensions": [
+            559,
+            204
+          ],
+          "image": "case_02_page_4_50.png",
+          "text": "Thiết kế lờ liên kết sự sóng tao va đổi mới\nnhằm xdy dựng cdc ý tưởng trở thành những\ngiải phdp hiệu qué và hấp dẫn người dùng\nhoặc khóch hang.\n\nThiết kế phỏi có một mục đích cụ thé nao đó.",
+          "error": null,
+          "stderr": "",
+          "duration_seconds": 0.547
+        }
+      ]
+    }
+  ]
+}

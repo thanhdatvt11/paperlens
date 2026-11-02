@@ -1,0 +1,43 @@
+{
+  "scope": "SUMMARY_DIAGNOSTIC",
+  "source_run_id": 35,
+  "section_title": "1. Understanding Al Agents: The Foundation",
+  "first_group_only": true,
+  "created_at_local": "2026-10-29T14:55:47.222317",
+  "application_or_database_modified": false,
+  "cases": [
+    {
+      "case": "current_schema",
+      "schema_maxLength": 240,
+      "prompt_target_characters": 144,
+      "provider_num_predict": 1024,
+      "duration_seconds": 7.953,
+      "model": "qwen3:1.7b",
+      "done": true,
+      "done_reason": "stop",
+      "raw_content": "{\n  \"summary\": \"Al agents are autonomous software programs that perceive their environment, process information, and take actions to achieve goals without constant human intervention. They use large language models (LLMs) to reason, plan, and adapt basedon\" }",
+      "json_error": null,
+      "summary_characters": 240,
+      "summary_tail": "onstant human intervention. They use large language models (LLMs) to reason, plan, and adapt basedon",
+      "mechanical_quality_error": "Summary appears unfinished; rewrite more briefly and end with a complete sentence.",
+      "exceeds_original_character_limit": false
+    },
+    {
+      "case": "without_schema_maxLength",
+      "schema_maxLength": null,
+      "prompt_target_characters": 144,
+      "provider_num_predict": 1024,
+      "duration_seconds": 3.844,
+      "model": "qwen3:1.7b",
+      "done": true,
+      "done_reason": "stop",
+      "raw_content": "{\n  \"summary\": \"Al agents are autonomous software programs that perceive their environment, process information, and take actions to achieve goals without constant human intervention. They use large language models (LLMs) to reason, plan, and adapt based on feedback. Key characteristics include autonomy, perception, reasoning, action, and learning. The core architecture includes a LLM as the reasoning engine, memory systems for context and knowledge, tools for external interaction, and planning modules for coordination. The Think-Act-Observe workflow enables agents to process inputs, generate responses, and observe outcomes.\"\n}",
+      "json_error": null,
+      "summary_characters": 616,
+      "summary_tail": "ink-Act-Observe workflow enables agents to process inputs, generate responses, and observe outcomes.",
+      "mechanical_quality_error": null,
+      "exceeds_original_character_limit": true
+    }
+  ],
+  "note": "Two controlled calls compare schema maxLength. A better result in one case does not prove a general fix or semantic correctness."
+}

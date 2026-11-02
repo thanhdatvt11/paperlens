@@ -1,0 +1,59 @@
+<!doctype html><html lang="vi"><meta charset="utf-8"><title>Đọc trang PDF bằng vision</title><style>body{font:16px system-ui;margin:24px;background:#f5f7fa;color:#172033}section{background:white;padding:20px;margin:20px 0;border:1px solid #ccd}img{max-width:100%;height:auto}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit}article{border-left:3px solid #9ab;padding:4px 16px;margin:12px 0}</style><h1>Đọc trang PDF bằng model vision</h1><p>Model chỉ nhận ảnh trang, không nhận text/OCR cũ. Đây là bản chép chưa xác minh, không phải review cuối. JSON hợp lệ không chứng minh chữ đọc đúng hoặc đủ.</p><section><h2>Trang 2 — 129.7 giây</h2><img src="page_02.png" alt="Ảnh đã gửi cho model"><p>ValueError: Provider output was truncated; this page is not accepted.</p><pre>{
+  &quot;page_title&quot;: &quot;CONTENTS&quot;,
+  &quot;blocks&quot;: [
+    {
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;location&quot;: &quot;trên&quot;,
+      &quot;text&quot;: &quot;CONTENTS&quot;,
+      &quot;uncertain&quot;: false
+    },
+    {
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;location&quot;: &quot;trên&quot;,
+      &quot;text&quot;: &quot;GIỚI THIỆU TỔNG QUAN&quot;,
+      &quot;uncertain&quot;: false
+    },
+    {
+      &quot;role&quot;: &quot;list&quot;,
+      &quot;location&quot;: &quot;trên&quot;,
+      &quot;text&quot;: &quot;1. Ngành thiết kế đồ hoa là gì?\n2. Nghệ thuật truyền thông thị giác (Visual Communication)\n3. Nghệ thuật giải quyết vấn đề (Problem Solver)&quot;,
+      &quot;uncertain&quot;: false
+    },
+    {
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;location&quot;: &quot;trên&quot;,
+      &quot;text&quot;: &quot;CÁC NGUYÊN LÝ THIẾT KẾ&quot;,
+      &quot;uncertain&quot;: false
+    },
+    {
+      &quot;role&quot;: &quot;list&quot;,
+      &quot;location&quot;: &quot;trên&quot;,
+      &quot;text&quot;: &quot;1. Cân bằng (Balance)\n2. Tỉ lệ (Proportion)\n3. Tương phản (Contrast)\n4. Chính phụ (Hierarchy)\n5. Điểm nhấn (Emphasis)\n6. Nhịp điệu (Rhythm)\n7. Lặp lại (Repetition)&quot;,
+      &quot;uncertain&quot;: false
+    },
+    {
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;location&quot;: &quot;trên&quot;,
+      &quot;text&quot;: &quot;CÁC YẾU TỐ CƠ BẢN CỦA ĐỒ HỌA&quot;,
+      &quot;uncertain&quot;: false
+    },
+    {
+      &quot;role&quot;: &quot;list&quot;,
+      &quot;location&quot;: &quot;trên&quot;,
+      &quot;text&quot;: &quot;1. Đường nét\n2. Hình khối\n3. Không gian&quot;,
+      &quot;uncertain&quot;: false
+    },
+    {
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;location&quot;: &quot;trên&quot;,
+      &quot;text&quot;: &quot;MÀU SẮC&quot;,
+      &quot;uncertain&quot;: false
+    },
+    {
+      &quot;role&quot;: &quot;list&quot;,
+      &quot;location&quot;: &quot;trên&quot;,
+      &quot;text&quot;: &quot;1. Những khái niệm cơ bản của màu sắc\n2. Bối cảnh văn hoá &amp; tâm lý học màu sắc\n3. Một số đặc tính của màu sắc trong thiết kế đồ hoa&quot;,
+      &quot;uncertain&quot;: false
+    }
+  ],
+  &quot;layout_notes&quot;: &quot;Bố cục được chia thành các khối rõ ràng với các tiêu đề lớn và danh sách nhỏ. Các khối được sắp xếp theo thứ tự từ trên xuống dưới, với các tiêu đề lớn ở phía trên và danh sách nhỏ ở phía dưới. Các khối được phân tách rõ ràng bằng các dấu chấm hoặc các dấu chấm phân cách. Các khối được sắp xếp theo thứ tự đọc từ trên xuống dưới, từ trái sang phải. Các khối được chia thành các nhóm riêng biệt, mỗi nhóm có một tiêu đề lớn và danh sách nhỏ bên dưới. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các cột, mỗi cột chứa một nhóm riêng biệt. Các khối được chia theo các</pre></section></html>

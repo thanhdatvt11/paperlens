@@ -1,5 +1,6 @@
 """HTTP adapter for the local Ollama API."""
 
+import base64
 from typing import Any
 
 import httpx
@@ -38,10 +39,12 @@ class OllamaAdapter:
         self,
         settings: Settings,
         transport: httpx.BaseTransport | None = None,
+        *,
+        timeout_seconds: float = 120.0,
     ) -> None:
         self._base_url = settings.ollama_base_url
         self._model = settings.ollama_model
-        self._timeout = httpx.Timeout(120.0, connect=5.0)
+        self._timeout = httpx.Timeout(timeout_seconds, connect=5.0)
         self._transport = transport
 
     def list_models(self) -> list[str]:
@@ -81,9 +84,16 @@ class OllamaAdapter:
         response_format: dict[str, Any] | None = None,
         system_prompt: str | None = None,
         temperature: float | None = None,
+        images: list[bytes] | None = None,
+        num_ctx: int = 4096,
+        request_timeout: float | None = None,
     ) -> dict[str, Any]:
         """Send one user message and return Ollama's chat result."""
         messages = [{"role": "user", "content": message}]
+        if images is not None:
+            if not images or not all(isinstance(value, bytes) and value for value in images):
+                raise ValueError("images must contain nonempty image bytes")
+            messages[0]["images"] = [base64.b64encode(value).decode("ascii") for value in images]
         if system_prompt is not None:
             messages.insert(0, {"role": "system", "content": system_prompt})
         request_body: dict[str, Any] = {
@@ -91,7 +101,7 @@ class OllamaAdapter:
             "messages": messages,
             "stream": False,
             "think": False,
-            "options": {"num_ctx": 4096, "num_predict": num_predict},
+            "options": {"num_ctx": num_ctx, "num_predict": num_predict},
         }
         if temperature is not None:
             request_body["options"]["temperature"] = temperature
@@ -103,7 +113,11 @@ class OllamaAdapter:
                 timeout=self._timeout,
                 transport=self._transport,
             ) as client:
-                response = client.post("/api/chat", json=request_body)
+                response = client.post(
+                    "/api/chat", json=request_body,
+                    timeout=httpx.Timeout(request_timeout, connect=min(5.0, request_timeout))
+                    if request_timeout is not None else self._timeout,
+                )
                 response.raise_for_status()
         except httpx.TimeoutException as exc:
             raise OllamaTimeoutError from exc
@@ -135,6 +149,9 @@ class OllamaAdapter:
                 "content": content,
                 "done": payload.get("done"),
                 "done_reason": payload.get("done_reason"),
+                "eval_count": payload.get("eval_count"),
+                "prompt_eval_count": payload.get("prompt_eval_count"),
+                "thinking_characters": len(payload["message"].get("thinking") or ""),
             }
         except (KeyError, TypeError, ValueError) as exc:
             raise OllamaResponseError from exc

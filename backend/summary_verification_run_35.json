@@ -1,0 +1,49 @@
+{
+  "scope": "SUMMARY_GROUP_VERIFICATION",
+  "source_run_id": 35,
+  "section_title": "1. Understanding Al Agents: The Foundation",
+  "first_group_only": true,
+  "created_at_local": "2026-10-29T15:47:10.856321",
+  "application_or_database_modified": false,
+  "accepted": false,
+  "error": "StructureOutputError: Summary rejected after 3 attempts for '1. Understanding Al Agents: The Foundation': Vietnamese prose required; rewrite in Vietnamese with diacritics, preserving proper names.",
+  "calls": [
+    {
+      "attempt": 1,
+      "rewrite_previous_draft": false,
+      "target_characters": 720,
+      "duration_seconds": 8.672,
+      "provider_result": {
+        "model": "qwen3:1.7b",
+        "content": "{\"summary\":\"Al agents are autonomous software programs that perceive their environment, process information, and take actions to achieve goals without constant human intervention. They use large language models to reason, plan, and adapt based on feedback. Key features include autonomy, perception, reasoning, action, and learning. The core architecture consists of a reasoning engine, memory systems, tools, and planning modules. The Think-Act-Observe workflow enables dynamic adaptation and continuous improvement.\"}",
+        "done": true,
+        "done_reason": "stop"
+      }
+    },
+    {
+      "attempt": 2,
+      "rewrite_previous_draft": true,
+      "target_characters": 540,
+      "duration_seconds": 4.484,
+      "provider_result": {
+        "model": "qwen3:1.7b",
+        "content": "{\"summary\":\"Al agents are autonomous software programs that perceive their environment, process information, and take actions to achieve goals without constant human intervention. They use large language models to reason, plan, and adapt based on feedback. Key features include autonomy, perception, reasoning, action, and learning. The core architecture consists of a reasoning engine, memory systems, tools, and planning modules. The Think-Act-Observe workflow enables dynamic adaptation and continuous improvement.\"}",
+        "done": true,
+        "done_reason": "stop"
+      }
+    },
+    {
+      "attempt": 3,
+      "rewrite_previous_draft": true,
+      "target_characters": 360,
+      "duration_seconds": 4.422,
+      "provider_result": {
+        "model": "qwen3:1.7b",
+        "content": "{\"summary\":\"Al agents are autonomous software programs that perceive their environment, process information, and take actions to achieve goals without human intervention. They use large language models to reason, plan, and adapt based on feedback. Key features include autonomy, perception, reasoning, action, and learning. The core architecture consists of a reasoning engine, memory systems, tools, and planning modules. The Think-Act-Observe workflow enables dynamic adaptation and continuous improvement.\"}",
+        "done": true,
+        "done_reason": "stop"
+      }
+    }
+  ],
+  "note": "Only the first source group is verified. Acceptance does not prove complete-section or whole-document accuracy."
+}

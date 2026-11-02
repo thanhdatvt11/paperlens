@@ -44,3 +44,8 @@ def get_document(
 ) -> Document | None:
     """Return a document by primary key, or None."""
     return db.get(Document, document_id)
+
+def delete_document(*, db, document):
+    """Delete a document within the service transaction."""
+    db.delete(document)
+    db.flush()

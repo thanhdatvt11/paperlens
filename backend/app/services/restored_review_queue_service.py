@@ -51,10 +51,14 @@ def get_review_run(db: Session, run_id: int) -> ReviewRunStatusResponse:
     if run is None:
         raise ReviewTargetNotFoundError('Review run was not found.')
     result = json.loads(run.result_json) if run.result_json else None
+    progress = {}
+    if run.job_type == ReviewJobType.VISION_DOCUMENT_REVIEW.value:
+        from app.services.vision_queue_service import progress as vision_progress
+        progress = vision_progress(db, run_id)
     return ReviewRunStatusResponse(
         run_id=run.id, job_type=run.job_type, document_id=run.document_id,
         version_id=run.version_id, status=run.status, stage=run.stage,
         total_chunks=run.total_chunks, processed_chunks=run.processed_chunks,
         created_at=run.created_at, started_at=run.started_at,
-        finished_at=run.finished_at, result=result, error=run.error_message,
+        finished_at=run.finished_at, result=result, error=run.error_message, **progress,
     )

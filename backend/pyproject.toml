@@ -12,6 +12,7 @@ dependencies = [
     "PyMuPDF",
     "python-multipart",
     "httpx",
+    "markitdown[pdf]",
 ]
 
 [project.optional-dependencies]

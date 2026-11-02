@@ -163,11 +163,11 @@ class ReviewRunAcceptedResponse(BaseModel):
 
 class ReviewRunStatusResponse(BaseModel):
     run_id: int
-    job_type: Literal['CHUNK_PREVIEW', 'DOCUMENT_REVIEW']
+    job_type: Literal['CHUNK_PREVIEW', 'DOCUMENT_REVIEW', 'VISION_DOCUMENT_REVIEW']
     document_id: int
     version_id: int
     status: Literal['QUEUED', 'RUNNING', 'COMPLETED', 'FAILED']
-    stage: Literal['QUEUED', 'READING_CHUNKS', 'SYNTHESIZING', 'FINISHED']
+    stage: Literal['QUEUED', 'READING_CHUNKS', 'READING_PAGES', 'VERIFYING_EVIDENCE', 'SYNTHESIZING', 'FINISHED']
     total_chunks: int
     processed_chunks: int
     created_at: datetime
@@ -175,3 +175,8 @@ class ReviewRunStatusResponse(BaseModel):
     finished_at: datetime | None
     result: dict[str, object] | None
     error: str | None
+
+    total_pages: int | None = None
+    processed_pages: int | None = None
+    reviewed_pages: int | None = None
+    checked_pages: int | None = None

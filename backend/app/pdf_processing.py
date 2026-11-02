@@ -1,28 +1,26 @@
 """PDF storage and text extraction helpers."""
 
+from collections.abc import Callable
 from dataclasses import dataclass
 from hashlib import sha256
-from pathlib import Path
-from uuid import uuid4
-
-import pymupdf as fitz
-
+import logging
 import os
+from pathlib import Path
+import re
 import shutil
 import subprocess
 from tempfile import TemporaryDirectory
-import logging
+import unicodedata
+from uuid import uuid4
 
+from fastapi import UploadFile
 from markitdown import MarkItDown
+import pymupdf as fitz
 
 LOGGER = logging.getLogger(__name__)
 
-
-
-from fastapi import UploadFile
-
 MAX_FILE_SIZE = 50 * 1024 * 1024
-MAX_PAGE_COUNT = 80
+MAX_PAGE_COUNT = 100
 CHUNK_SIZE = 1500
 CHUNK_OVERLAP = 200
 STORAGE_DIR = Path(__file__).resolve().parents[1] / "storage" / "documents"
@@ -107,18 +105,46 @@ def remove_storage_file(storage_key: str) -> None:
         path.unlink(missing_ok=True)
 
 
+def _require_ocr_languages(executable: str, language: str) -> None:
+    """Fail clearly rather than silently OCR Vietnamese with English alone."""
+    requested = {item.strip() for item in language.split("+") if item.strip()}
+    if not requested:
+        raise PdfProcessingError("PAPERLENS_OCR_LANGUAGE must not be empty.")
+    try:
+        result = subprocess.run(
+            [executable, "--list-langs"],
+            capture_output=True, text=True, encoding="utf-8",
+            errors="replace", timeout=10, check=False,
+        )
+    except (OSError, subprocess.TimeoutExpired) as exc:
+        raise PdfProcessingError(
+            "Cannot check Tesseract languages. Check TESSERACT_CMD."
+        ) from exc
+    if result.returncode != 0:
+        raise PdfProcessingError("Tesseract could not list available languages.")
+    available = {line.strip() for line in result.stdout.splitlines()}
+    missing = sorted(requested - available)
+    if missing:
+        raise PdfProcessingError(
+            "Missing Tesseract language data: " + ", ".join(missing)
+            + ". Install the corresponding .traineddata files in tessdata."
+        )
+
+
 def _ocr_page(page: fitz.Page, page_number: int) -> str:
     """Read a page image using the installed Tesseract executable."""
     executable = (
         os.environ.get("TESSERACT_CMD")
         or shutil.which("tesseract")
     )
-    language = os.environ.get("PAPERLENS_OCR_LANGUAGE", "eng")
+    language = os.environ.get("PAPERLENS_OCR_LANGUAGE", "vie+eng")
 
     if not executable:
         raise PdfProcessingError(
             "OCR is required. Set TESSERACT_CMD to tesseract.exe."
         )
+
+    _require_ocr_languages(executable, language)
 
     with TemporaryDirectory(prefix="paperlens_ocr_") as directory:
         image_path = Path(directory) / "page.png"
@@ -196,11 +222,85 @@ def _markitdown_page(
 
 
 def _text_character_count(text: str) -> int:
-    """Count letters and numbers without Markdown formatting characters."""
-    return sum(character.isalnum() for character in text)
+    """Count letters/numbers without inflating length with CID placeholders."""
+    without_cids = re.sub(r"\(cid:\s*\d+\)", "", text, flags=re.I)
+    return sum(character.isalnum() for character in without_cids)
 
 
+def _text_quality_issues(text: str) -> list[str]:
+    """Heuristic encoding checks, not proof of semantic or OCR accuracy."""
+    issues: list[str] = []
+    if re.search(r"\(cid:\s*\d+\)", text, flags=re.I):
+        issues.append("unmapped_cid")
+    if "\ufffd" in text:
+        issues.append("unicode_replacement")
+    controls = sum(
+        unicodedata.category(character) == "Cc"
+        and character not in "\n\r\t\f"
+        for character in text
+    )
+    if controls:
+        issues.append("unexpected_control_characters")
+    # A recurring reversed-E is an observed bad-font symptom in the supplied
+    # PDF. Only a dense repetition triggers this heuristic, not a single glyph.
+    if text.count("Ǝ") >= 3 and text.count("Ǝ") / max(1, len(text)) > .02:
+        issues.append("suspected_font_mapping")
+    return issues
 
+
+def _select_page_text(
+    markdown_text: str,
+    native_text: str,
+    has_images: bool,
+    ocr_reader: Callable[[], str],
+    page_number: int,
+) -> tuple[str, str, bool]:
+    """Prefer usable extraction; replace corrupt text even when OCR is shorter.
+
+    Returns text, extraction method and whether the page needs visual checking.
+    An unreadable encoded page fails explicitly rather than saving CID garbage.
+    """
+    text = markdown_text.strip()
+    method = "markitdown"
+    if not text or _text_quality_issues(text):
+        if native_text.strip() and not _text_quality_issues(native_text):
+            text = native_text.strip()
+            method = "native_fallback"
+        elif not text:
+            text = native_text.strip()
+            method = "native_fallback"
+
+    issues = _text_quality_issues(text)
+    sparse_image_page = (
+        _text_character_count(native_text) < 40 and has_images
+    )
+    needs_ocr = not text or bool(issues) or sparse_image_page
+    if not needs_ocr:
+        return text, method, False
+
+    LOGGER.info(
+        "pdf_page_ocr_required page=%s reasons=%s sparse_image=%s",
+        page_number, ",".join(issues) or "empty_or_sparse", sparse_image_page,
+    )
+    ocr_text = ocr_reader().strip()
+    ocr_issues = _text_quality_issues(ocr_text)
+    if ocr_text and not ocr_issues:
+        if (
+            issues or not text
+            or _text_character_count(ocr_text) > _text_character_count(text)
+        ):
+            # OCR is unverified: surface the page in existing warning_pages.
+            return ocr_text, "ocr", True
+        return text, method, True
+
+    if issues:
+        raise PdfProcessingError(
+            f"Page {page_number} contains unreadable encoded text and OCR "
+            "did not recover readable text. Check Tesseract languages "
+            "and the source page; corrupted chunks were not saved."
+        )
+    # Existing clean native/Markdown remains usable if supplementary OCR failed.
+    return text, method, True
 
 
 def _extract_pdf(
@@ -260,32 +360,15 @@ def _extract_pdf(
                 text = ""
                 method = "native_fallback"
 
-            if not text:
-                text = native_text
-                method = "native_fallback"
-
-            # Heuristic: images with very little native text may be scans.
-            sparse_image_page = (
-                _text_character_count(native_text) < 40
-                and bool(page.get_images())
+            text, method, needs_review = _select_page_text(
+                markdown_text=text,
+                native_text=native_text,
+                has_images=bool(page.get_images()),
+                ocr_reader=lambda: _ocr_page(page, page_number),
+                page_number=page_number,
             )
-            needs_ocr = not text.strip() or sparse_image_page
-
-            if needs_ocr:
-                ocr_text = _ocr_page(page, page_number)
-
-                # Retain existing text when OCR produces less content.
-                if (
-                    _text_character_count(ocr_text)
-                    > _text_character_count(text)
-                ):
-                    text = ocr_text
-                    method = "ocr"
-
-                # A sparse image page remains uncertain.
-                if method != "ocr":
-                    warning_pages.append(page_number)
-
+            if needs_review and page_number not in warning_pages:
+                warning_pages.append(page_number)
             if not text.strip():
                 if page_number not in warning_pages:
                     warning_pages.append(page_number)

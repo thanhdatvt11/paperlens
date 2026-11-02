@@ -129,7 +129,9 @@ def claim_next_queued(db: Session) -> ReviewRun | None:
         )
         .values(
             status=ReviewRunStatus.RUNNING.value,
-            stage=ReviewRunStage.READING_CHUNKS.value,
+            stage=(ReviewRunStage.READING_PAGES.value
+                   if candidate.job_type == ReviewJobType.VISION_DOCUMENT_REVIEW.value
+                   else ReviewRunStage.READING_CHUNKS.value),
             started_at=datetime.utcnow(),
             error_message=None,
         )

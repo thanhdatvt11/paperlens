@@ -1,9 +1,19 @@
-.venv/
-.env
+# Môi trường Python và model OCR
+.venv*/
+venv/
+ocr_test_models/
 __pycache__/
-*.pyc
-backend/paperlens.db
-backend/paperlens.db-journal
-backend/paperlens.db-wal
-backend/paperlens.db-shm
-backend/storage/
+*.py[cod]
+
+# Dữ liệu và cấu hình local
+.env
+.env.*
+!.env.example
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+/backend/storage/
+
+# Bản sao lưu
+*.zip

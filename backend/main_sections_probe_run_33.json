@@ -1,0 +1,735 @@
+{
+  "scope": "MAIN_SECTIONS_PROBE",
+  "strategy": "numbered_toc_matching",
+  "model_calls": 0,
+  "source_run_id": 33,
+  "pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "partial_document": false,
+  "chunk_count": 62,
+  "section_count": 11,
+  "source_body_heading_count": 8,
+  "toc_entries": [
+    {
+      "number": 1,
+      "title": "Understanding Al Agents: The Foundation",
+      "chunk_id": 68,
+      "page_number": 2,
+      "start_line": 3,
+      "end_line": 3,
+      "quote": "1. Understanding Al Agents: The Foundation"
+    },
+    {
+      "number": 2,
+      "title": "Popular Al Agent Frameworks",
+      "chunk_id": 68,
+      "page_number": 2,
+      "start_line": 8,
+      "end_line": 8,
+      "quote": "2. Popular Al Agent Frameworks"
+    },
+    {
+      "number": 3,
+      "title": "Specialized Frameworks and Emerging Protocols",
+      "chunk_id": 68,
+      "page_number": 2,
+      "start_line": 17,
+      "end_line": 17,
+      "quote": "3. Specialized Frameworks and Emerging Protocols"
+    },
+    {
+      "number": 4,
+      "title": "Building Your First Al Agent: Step-by-Step Tutorial",
+      "chunk_id": 68,
+      "page_number": 2,
+      "start_line": 23,
+      "end_line": 23,
+      "quote": "4. Building Your First Al Agent: Step-by-Step Tutorial"
+    },
+    {
+      "number": 5,
+      "title": "Hosting & Deployment: Getting Your Al Agent Live (The Fun Part!)",
+      "chunk_id": 68,
+      "page_number": 2,
+      "start_line": 28,
+      "end_line": 28,
+      "quote": "5. Hosting & Deployment: Getting Your Al Agent Live (The Fun Part!)"
+    },
+    {
+      "number": 6,
+      "title": "Security & Compliance: Keeping Your Al Agents Safe (Without the Headaches)",
+      "chunk_id": 68,
+      "page_number": 2,
+      "start_line": 31,
+      "end_line": 32,
+      "quote": "6. Security & Compliance: Keeping Your Al Agents Safe (Without the\nHeadaches)"
+    },
+    {
+      "number": 7,
+      "title": "Advanced Topics and Future Directions",
+      "chunk_id": 68,
+      "page_number": 2,
+      "start_line": 34,
+      "end_line": 34,
+      "quote": "7.Advanced Topics and Future Directions"
+    },
+    {
+      "number": 8,
+      "title": "Conclusion",
+      "chunk_id": 68,
+      "page_number": 2,
+      "start_line": 35,
+      "end_line": 35,
+      "quote": "8. Conclusion"
+    }
+  ],
+  "semantic_correctness_verified": false,
+  "sections": [
+    {
+      "section_id": "S0001",
+      "parent_id": null,
+      "title": "Trang tiêu đề",
+      "title_origin": "generated",
+      "level": 1,
+      "kind": "cover",
+      "heading_evidence": [],
+      "spans": [
+        {
+          "chunk_id": 67,
+          "page_number": 1,
+          "start_line": 1,
+          "end_line": 6
+        }
+      ]
+    },
+    {
+      "section_id": "S0002",
+      "parent_id": null,
+      "title": "Mục lục",
+      "title_origin": "generated",
+      "level": 1,
+      "kind": "table_of_contents",
+      "heading_evidence": [],
+      "spans": [
+        {
+          "chunk_id": 68,
+          "page_number": 2,
+          "start_line": 1,
+          "end_line": 35
+        }
+      ]
+    },
+    {
+      "section_id": "S0003",
+      "parent_id": null,
+      "title": "Nội dung chưa có tiêu đề",
+      "title_origin": "generated",
+      "level": 1,
+      "kind": "body",
+      "heading_evidence": [],
+      "spans": [
+        {
+          "chunk_id": 69,
+          "page_number": 3,
+          "start_line": 1,
+          "end_line": 11
+        }
+      ]
+    },
+    {
+      "section_id": "S0004",
+      "parent_id": null,
+      "title": "1. Understanding Al Agents: The Foundation",
+      "title_origin": "source",
+      "level": 1,
+      "kind": "body",
+      "heading_evidence": [
+        {
+          "chunk_id": 69,
+          "page_number": 3,
+          "quote": "1. Understanding Al Agents: The Foundation"
+        }
+      ],
+      "spans": [
+        {
+          "chunk_id": 69,
+          "page_number": 3,
+          "start_line": 12,
+          "end_line": 26
+        },
+        {
+          "chunk_id": 70,
+          "page_number": 4,
+          "start_line": 1,
+          "end_line": 29
+        },
+        {
+          "chunk_id": 71,
+          "page_number": 4,
+          "start_line": 1,
+          "end_line": 15
+        },
+        {
+          "chunk_id": 72,
+          "page_number": 5,
+          "start_line": 1,
+          "end_line": 18
+        }
+      ]
+    },
+    {
+      "section_id": "S0005",
+      "parent_id": null,
+      "title": "2. Popular Al Agent Frameworks",
+      "title_origin": "source",
+      "level": 1,
+      "kind": "body",
+      "heading_evidence": [
+        {
+          "chunk_id": 72,
+          "page_number": 5,
+          "quote": "2. Popular Al Agent Frameworks"
+        }
+      ],
+      "spans": [
+        {
+          "chunk_id": 72,
+          "page_number": 5,
+          "start_line": 19,
+          "end_line": 26
+        },
+        {
+          "chunk_id": 73,
+          "page_number": 6,
+          "start_line": 1,
+          "end_line": 38
+        },
+        {
+          "chunk_id": 74,
+          "page_number": 6,
+          "start_line": 1,
+          "end_line": 8
+        },
+        {
+          "chunk_id": 75,
+          "page_number": 7,
+          "start_line": 1,
+          "end_line": 27
+        },
+        {
+          "chunk_id": 76,
+          "page_number": 7,
+          "start_line": 1,
+          "end_line": 21
+        },
+        {
+          "chunk_id": 77,
+          "page_number": 8,
+          "start_line": 1,
+          "end_line": 27
+        },
+        {
+          "chunk_id": 78,
+          "page_number": 8,
+          "start_line": 1,
+          "end_line": 20
+        },
+        {
+          "chunk_id": 79,
+          "page_number": 9,
+          "start_line": 1,
+          "end_line": 29
+        },
+        {
+          "chunk_id": 80,
+          "page_number": 9,
+          "start_line": 1,
+          "end_line": 13
+        },
+        {
+          "chunk_id": 81,
+          "page_number": 10,
+          "start_line": 1,
+          "end_line": 42
+        },
+        {
+          "chunk_id": 82,
+          "page_number": 11,
+          "start_line": 1,
+          "end_line": 43
+        },
+        {
+          "chunk_id": 83,
+          "page_number": 12,
+          "start_line": 1,
+          "end_line": 39
+        },
+        {
+          "chunk_id": 84,
+          "page_number": 13,
+          "start_line": 1,
+          "end_line": 42
+        },
+        {
+          "chunk_id": 85,
+          "page_number": 14,
+          "start_line": 1,
+          "end_line": 39
+        },
+        {
+          "chunk_id": 86,
+          "page_number": 15,
+          "start_line": 1,
+          "end_line": 40
+        },
+        {
+          "chunk_id": 87,
+          "page_number": 16,
+          "start_line": 1,
+          "end_line": 43
+        },
+        {
+          "chunk_id": 88,
+          "page_number": 17,
+          "start_line": 1,
+          "end_line": 43
+        },
+        {
+          "chunk_id": 89,
+          "page_number": 18,
+          "start_line": 1,
+          "end_line": 44
+        },
+        {
+          "chunk_id": 90,
+          "page_number": 19,
+          "start_line": 1,
+          "end_line": 40
+        },
+        {
+          "chunk_id": 91,
+          "page_number": 20,
+          "start_line": 1,
+          "end_line": 46
+        },
+        {
+          "chunk_id": 92,
+          "page_number": 20,
+          "start_line": 1,
+          "end_line": 8
+        }
+      ]
+    },
+    {
+      "section_id": "S0006",
+      "parent_id": null,
+      "title": "3. Specialized Frameworks and Emerging Protocols",
+      "title_origin": "source",
+      "level": 1,
+      "kind": "body",
+      "heading_evidence": [
+        {
+          "chunk_id": 93,
+          "page_number": 21,
+          "quote": "3. Specialized Frameworks and Emerging Protocols"
+        }
+      ],
+      "spans": [
+        {
+          "chunk_id": 93,
+          "page_number": 21,
+          "start_line": 1,
+          "end_line": 39
+        },
+        {
+          "chunk_id": 94,
+          "page_number": 22,
+          "start_line": 1,
+          "end_line": 40
+        },
+        {
+          "chunk_id": 95,
+          "page_number": 23,
+          "start_line": 1,
+          "end_line": 25
+        },
+        {
+          "chunk_id": 96,
+          "page_number": 23,
+          "start_line": 1,
+          "end_line": 19
+        }
+      ]
+    },
+    {
+      "section_id": "S0007",
+      "parent_id": null,
+      "title": "4. Building Your First Al Agent: Step-by-Step Tutorial",
+      "title_origin": "source",
+      "level": 1,
+      "kind": "body",
+      "heading_evidence": [
+        {
+          "chunk_id": 96,
+          "page_number": 23,
+          "quote": "4. Building Your First Al Agent: Step-by-Step Tutorial"
+        }
+      ],
+      "spans": [
+        {
+          "chunk_id": 96,
+          "page_number": 23,
+          "start_line": 20,
+          "end_line": 22
+        },
+        {
+          "chunk_id": 97,
+          "page_number": 24,
+          "start_line": 1,
+          "end_line": 46
+        },
+        {
+          "chunk_id": 98,
+          "page_number": 25,
+          "start_line": 1,
+          "end_line": 27
+        },
+        {
+          "chunk_id": 99,
+          "page_number": 25,
+          "start_line": 1,
+          "end_line": 5
+        }
+      ]
+    },
+    {
+      "section_id": "S0008",
+      "parent_id": null,
+      "title": "5. Hosting & Deployment: Getting Your Al Agent Live",
+      "title_origin": "source",
+      "level": 1,
+      "kind": "body",
+      "heading_evidence": [
+        {
+          "chunk_id": 99,
+          "page_number": 25,
+          "quote": "5. Hosting & Deployment: Getting Your Al Agent Live"
+        }
+      ],
+      "spans": [
+        {
+          "chunk_id": 99,
+          "page_number": 25,
+          "start_line": 6,
+          "end_line": 9
+        },
+        {
+          "chunk_id": 100,
+          "page_number": 26,
+          "start_line": 1,
+          "end_line": 36
+        },
+        {
+          "chunk_id": 101,
+          "page_number": 27,
+          "start_line": 1,
+          "end_line": 30
+        },
+        {
+          "chunk_id": 102,
+          "page_number": 28,
+          "start_line": 1,
+          "end_line": 44
+        },
+        {
+          "chunk_id": 103,
+          "page_number": 29,
+          "start_line": 1,
+          "end_line": 43
+        },
+        {
+          "chunk_id": 104,
+          "page_number": 30,
+          "start_line": 1,
+          "end_line": 43
+        },
+        {
+          "chunk_id": 105,
+          "page_number": 31,
+          "start_line": 1,
+          "end_line": 39
+        },
+        {
+          "chunk_id": 106,
+          "page_number": 32,
+          "start_line": 1,
+          "end_line": 42
+        },
+        {
+          "chunk_id": 107,
+          "page_number": 33,
+          "start_line": 1,
+          "end_line": 41
+        },
+        {
+          "chunk_id": 108,
+          "page_number": 34,
+          "start_line": 1,
+          "end_line": 44
+        },
+        {
+          "chunk_id": 109,
+          "page_number": 35,
+          "start_line": 1,
+          "end_line": 21
+        }
+      ]
+    },
+    {
+      "section_id": "S0009",
+      "parent_id": null,
+      "title": "6. Security & Compliance: Keeping Your Al Agents",
+      "title_origin": "source",
+      "level": 1,
+      "kind": "body",
+      "heading_evidence": [
+        {
+          "chunk_id": 109,
+          "page_number": 35,
+          "quote": "6. Security & Compliance: Keeping Your Al Agents"
+        }
+      ],
+      "spans": [
+        {
+          "chunk_id": 109,
+          "page_number": 35,
+          "start_line": 22,
+          "end_line": 25
+        },
+        {
+          "chunk_id": 110,
+          "page_number": 36,
+          "start_line": 1,
+          "end_line": 35
+        },
+        {
+          "chunk_id": 111,
+          "page_number": 37,
+          "start_line": 1,
+          "end_line": 45
+        },
+        {
+          "chunk_id": 112,
+          "page_number": 38,
+          "start_line": 1,
+          "end_line": 46
+        },
+        {
+          "chunk_id": 113,
+          "page_number": 39,
+          "start_line": 1,
+          "end_line": 46
+        },
+        {
+          "chunk_id": 114,
+          "page_number": 40,
+          "start_line": 1,
+          "end_line": 41
+        },
+        {
+          "chunk_id": 115,
+          "page_number": 41,
+          "start_line": 1,
+          "end_line": 36
+        },
+        {
+          "chunk_id": 116,
+          "page_number": 42,
+          "start_line": 1,
+          "end_line": 47
+        }
+      ]
+    },
+    {
+      "section_id": "S0010",
+      "parent_id": null,
+      "title": "7. Advanced Topics and Future Directions",
+      "title_origin": "source",
+      "level": 1,
+      "kind": "body",
+      "heading_evidence": [
+        {
+          "chunk_id": 117,
+          "page_number": 43,
+          "quote": "7. Advanced Topics and Future Directions"
+        }
+      ],
+      "spans": [
+        {
+          "chunk_id": 117,
+          "page_number": 43,
+          "start_line": 1,
+          "end_line": 23
+        },
+        {
+          "chunk_id": 118,
+          "page_number": 44,
+          "start_line": 1,
+          "end_line": 31
+        },
+        {
+          "chunk_id": 119,
+          "page_number": 44,
+          "start_line": 1,
+          "end_line": 20
+        },
+        {
+          "chunk_id": 120,
+          "page_number": 45,
+          "start_line": 1,
+          "end_line": 30
+        },
+        {
+          "chunk_id": 121,
+          "page_number": 46,
+          "start_line": 1,
+          "end_line": 45
+        },
+        {
+          "chunk_id": 122,
+          "page_number": 46,
+          "start_line": 1,
+          "end_line": 8
+        },
+        {
+          "chunk_id": 123,
+          "page_number": 47,
+          "start_line": 1,
+          "end_line": 43
+        },
+        {
+          "chunk_id": 124,
+          "page_number": 48,
+          "start_line": 1,
+          "end_line": 38
+        },
+        {
+          "chunk_id": 125,
+          "page_number": 49,
+          "start_line": 1,
+          "end_line": 35
+        },
+        {
+          "chunk_id": 126,
+          "page_number": 50,
+          "start_line": 1,
+          "end_line": 11
+        }
+      ]
+    },
+    {
+      "section_id": "S0011",
+      "parent_id": null,
+      "title": "Conclusion",
+      "title_origin": "source",
+      "level": 1,
+      "kind": "body",
+      "heading_evidence": [
+        {
+          "chunk_id": 126,
+          "page_number": 50,
+          "quote": "Conclusion"
+        }
+      ],
+      "spans": [
+        {
+          "chunk_id": 126,
+          "page_number": 50,
+          "start_line": 12,
+          "end_line": 38
+        },
+        {
+          "chunk_id": 127,
+          "page_number": 51,
+          "start_line": 1,
+          "end_line": 33
+        },
+        {
+          "chunk_id": 128,
+          "page_number": 51,
+          "start_line": 1,
+          "end_line": 16
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Strategy: numbered TOC title matching; only main sections are produced, not a three-level tree.",
+    "Main-section detection uses server source matching, not Ollama. Section/global summaries still use the configured Ollama adapter.",
+    "All snapshot lines remain assigned exactly once; quote identity is not semantic verification.",
+    "Source before the first matched main section is retained under a generated label.",
+    "Content absent from the TOC stays inside surrounding matched sections; this is not proof of a complete editorial outline.",
+    "Body boundaries are textual matches; OCR variants, repeated headings, unnumbered appendices and TOC errors require review.",
+    "TOC entries: 8; matched: 8; unmatched: 0.",
+    "TOC entry 6 matched a truncated source prefix; inspect heading quote.",
+    "TOC 1 -> chunk 69, page 3, lines 12-12; TOC source chunk 68, lines 3-3.",
+    "TOC 2 -> chunk 72, page 5, lines 19-19; TOC source chunk 68, lines 8-8.",
+    "TOC 3 -> chunk 93, page 21, lines 1-1; TOC source chunk 68, lines 17-17.",
+    "TOC 4 -> chunk 96, page 23, lines 20-20; TOC source chunk 68, lines 23-23.",
+    "TOC 5 -> chunk 99, page 25, lines 6-6; TOC source chunk 68, lines 28-28.",
+    "TOC 6 -> chunk 109, page 35, lines 22-22; TOC source chunk 68, lines 31-32.",
+    "TOC 7 -> chunk 117, page 43, lines 1-1; TOC source chunk 68, lines 34-34.",
+    "TOC 8 -> chunk 126, page 50, lines 12-12; TOC source chunk 68, lines 35-35."
+  ]
+}

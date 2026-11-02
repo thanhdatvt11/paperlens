@@ -1,0 +1,591 @@
+{
+  "scope": "PDF_REGION_EXTRACTION_PROBE",
+  "document_id": 8,
+  "version_id": 5,
+  "semantic_correctness_verified": false,
+  "database_modified": false,
+  "pages": [
+    {
+      "page_number": 1,
+      "native_block_count": 3,
+      "region_count": 3,
+      "regions": [
+        {
+          "region_id": "R001",
+          "source_block_ids": [
+            "B0004"
+          ],
+          "bbox": [
+            81.48,
+            455.94,
+            563.56,
+            669.55
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "method": "native",
+          "inverted_for_ocr": false,
+          "native_encoding_issues": [],
+          "output_encoding_issues": [],
+          "needs_visual_check": true,
+          "error": null,
+          "text": "FUNDAMENTAL\nGRAPHIC DESIGN"
+        },
+        {
+          "region_id": "R002",
+          "source_block_ids": [
+            "B0003"
+          ],
+          "bbox": [
+            79.03,
+            699.45,
+            511.41,
+            744.23
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "method": "ocr_region",
+          "inverted_for_ocr": true,
+          "native_encoding_issues": [
+            "unexpected_control_characters",
+            "suspected_font_mapping"
+          ],
+          "output_encoding_issues": [],
+          "needs_visual_check": true,
+          "error": null,
+          "text": "NEN TANG THIẾT KẾ ĐỒ HOA"
+        },
+        {
+          "region_id": "R003",
+          "source_block_ids": [
+            "B0002"
+          ],
+          "bbox": [
+            80.2,
+            977.91,
+            1839.69,
+            1004.82
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "method": "native",
+          "inverted_for_ocr": false,
+          "native_encoding_issues": [],
+          "output_encoding_issues": [],
+          "needs_visual_check": true,
+          "error": null,
+          "text": "EBOOK BY BOLD CREATIVE TRAINING LAB\nFACEBOOK.COM/BOLDCREATIVELAB\nWWW.BOLDCREATIVELAB.COM\nCOPYRIGHT @2024"
+        }
+      ],
+      "warnings": [
+        "Region list is sorted by coordinates, not verified semantic reading order.",
+        "Separate regions/columns have not been concatenated into review chunks.",
+        "Only native text blocks are covered; lettering embedded in pictures or logos may be missing.",
+        "OCR can misread letters and accents even with no encoding issues."
+      ]
+    },
+    {
+      "page_number": 2,
+      "native_block_count": 23,
+      "region_count": 11,
+      "regions": [
+        {
+          "region_id": "R001",
+          "source_block_ids": [
+            "B0009"
+          ],
+          "bbox": [
+            121.57,
+            309.37,
+            536.4,
+            360.55
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "method": "ocr_region",
+          "inverted_for_ocr": false,
+          "native_encoding_issues": [
+            "unexpected_control_characters",
+            "suspected_font_mapping"
+          ],
+          "output_encoding_issues": [],
+          "needs_visual_check": true,
+          "error": null,
+          "text": "GIỚI THIỆU TỔNG QUAN"
+        },
+        {
+          "region_id": "R002",
+          "source_block_ids": [
+            "B0018"
+          ],
+          "bbox": [
+            810.91,
+            309.37,
+            1264.97,
+            360.55
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "method": "ocr_region",
+          "inverted_for_ocr": false,
+          "native_encoding_issues": [
+            "unexpected_control_characters",
+            "suspected_font_mapping"
+          ],
+          "output_encoding_issues": [],
+          "needs_visual_check": true,
+          "error": null,
+          "text": "CÁC NGUYÊN LÝ THIẾT KẾ"
+        },
+        {
+          "region_id": "R003",
+          "source_block_ids": [
+            "B0002"
+          ],
+          "bbox": [
+            1491.72,
+            359.68,
+            1711.97,
+            903.8
+          ],
+          "direction": [
+            0.0,
+            -1.0
+          ],
+          "method": "native",
+          "inverted_for_ocr": false,
+          "native_encoding_issues": [],
+          "output_encoding_issues": [],
+          "needs_visual_check": true,
+          "error": null,
+          "text": "CONTENTS"
+        },
+        {
+          "region_id": "R004",
+          "source_block_ids": [
+            "B0011",
+            "B0012",
+            "B0013"
+          ],
+          "bbox": [
+            1040.93,
+            381.5,
+            1270.65,
+            467.51
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "method": "ocr_region",
+          "inverted_for_ocr": false,
+          "native_encoding_issues": [
+            "suspected_font_mapping",
+            "unexpected_control_characters"
+          ],
+          "output_encoding_issues": [],
+          "needs_visual_check": true,
+          "error": null,
+          "text": "5. Điểm nhốn (Emphosis)\n6. Nhịp điệu (Rhythm)\n7. Lap lai (Repetition)"
+        },
+        {
+          "region_id": "R005",
+          "source_block_ids": [
+            "B0003",
+            "B0004",
+            "B0005"
+          ],
+          "bbox": [
+            80.1,
+            382.37,
+            629.83,
+            468.38
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "method": "ocr_region",
+          "inverted_for_ocr": false,
+          "native_encoding_issues": [
+            "suspected_font_mapping",
+            "unexpected_control_characters"
+          ],
+          "output_encoding_issues": [],
+          "needs_visual_check": true,
+          "error": null,
+          "text": "1. Ngành thiết kế đồ hoa là gi?\n2. Nghệ thuật truyền thông thị giác (Visual Communication)\n3. Nghệ thuột giỏi quyết vốn đề (Problem Solver)"
+        },
+        {
+          "region_id": "R006",
+          "source_block_ids": [
+            "B0014",
+            "B0015",
+            "B0016",
+            "B0017"
+          ],
+          "bbox": [
+            720.01,
+            383.76,
+            952.98,
+            498.92
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "method": "ocr_region",
+          "inverted_for_ocr": false,
+          "native_encoding_issues": [
+            "suspected_font_mapping",
+            "unexpected_control_characters"
+          ],
+          "output_encoding_issues": [],
+          "needs_visual_check": true,
+          "error": null,
+          "text": "1. Cân bằng (Balance)\n\n2. Tỉ lệ (Proportion)\n\n3. Tương phỏn (Contrast)\n4. Chính phụ (Hierachy)"
+        },
+        {
+          "region_id": "R007",
+          "source_block_ids": [
+            "B0010"
+          ],
+          "bbox": [
+            146.92,
+            622.88,
+            510.99,
+            720.55
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "method": "ocr_region",
+          "inverted_for_ocr": false,
+          "native_encoding_issues": [
+            "unexpected_control_characters",
+            "suspected_font_mapping"
+          ],
+          "output_encoding_issues": [],
+          "needs_visual_check": true,
+          "error": null,
+          "text": "CÁC YẾU TỔ CƠ BẢN\nCUA DO HỌA"
+        },
+        {
+          "region_id": "R008",
+          "source_block_ids": [
+            "B0023"
+          ],
+          "bbox": [
+            803.45,
+            669.37,
+            968.07,
+            720.55
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "method": "ocr_region",
+          "inverted_for_ocr": false,
+          "native_encoding_issues": [
+            "unexpected_control_characters"
+          ],
+          "output_encoding_issues": [],
+          "needs_visual_check": true,
+          "error": null,
+          "text": "MÀU SẮC"
+        },
+        {
+          "region_id": "R009",
+          "source_block_ids": [
+            "B0006",
+            "B0007",
+            "B0008"
+          ],
+          "bbox": [
+            81.62,
+            743.02,
+            207.81,
+            829.03
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "method": "ocr_region",
+          "inverted_for_ocr": false,
+          "native_encoding_issues": [
+            "font_mapping_marker_in_region",
+            "unexpected_control_characters"
+          ],
+          "output_encoding_issues": [],
+          "needs_visual_check": true,
+          "error": null,
+          "text": "1. Đường nét\n2. Hình khối\n3. Không gian"
+        },
+        {
+          "region_id": "R010",
+          "source_block_ids": [
+            "B0019",
+            "B0020",
+            "B0021",
+            "B0022"
+          ],
+          "bbox": [
+            719.34,
+            743.2,
+            1101.34,
+            858.36
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "method": "ocr_region",
+          "inverted_for_ocr": false,
+          "native_encoding_issues": [
+            "suspected_font_mapping",
+            "unexpected_control_characters"
+          ],
+          "output_encoding_issues": [],
+          "needs_visual_check": true,
+          "error": null,
+          "text": "1. Những khới niệm cơ bản của mau sốc\n\n2. Bối cảnh văn hod & tâm lý học màu sắc\n3. Một số đặc tính của màu sắc\n\ntrong thiết kế đồ hoa"
+        },
+        {
+          "region_id": "R011",
+          "source_block_ids": [
+            "B0001"
+          ],
+          "bbox": [
+            80.2,
+            985.03,
+            1840.39,
+            1004.19
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "method": "native",
+          "inverted_for_ocr": false,
+          "native_encoding_issues": [],
+          "output_encoding_issues": [],
+          "needs_visual_check": true,
+          "error": null,
+          "text": "EBOOK BY BOLD CREATIVE TRAINING LAB\n1"
+        }
+      ],
+      "warnings": [
+        "Region list is sorted by coordinates, not verified semantic reading order.",
+        "Separate regions/columns have not been concatenated into review chunks.",
+        "Only native text blocks are covered; lettering embedded in pictures or logos may be missing.",
+        "OCR can misread letters and accents even with no encoding issues."
+      ]
+    },
+    {
+      "page_number": 4,
+      "native_block_count": 15,
+      "region_count": 7,
+      "regions": [
+        {
+          "region_id": "R001",
+          "source_block_ids": [
+            "B0003"
+          ],
+          "bbox": [
+            1152.0,
+            77.31,
+            1634.23,
+            128.48
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "method": "ocr_region",
+          "inverted_for_ocr": false,
+          "native_encoding_issues": [
+            "unexpected_control_characters",
+            "suspected_font_mapping"
+          ],
+          "output_encoding_issues": [],
+          "needs_visual_check": true,
+          "error": null,
+          "text": "Ngành thiết kế đồ hoa là gì?"
+        },
+        {
+          "region_id": "R002",
+          "source_block_ids": [
+            "B0002"
+          ],
+          "bbox": [
+            78.82,
+            211.01,
+            635.1,
+            568.59
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "method": "native",
+          "inverted_for_ocr": false,
+          "native_encoding_issues": [],
+          "output_encoding_issues": [],
+          "needs_visual_check": true,
+          "error": null,
+          "text": "DESIGN IS\nABOUT\nPRINCIPLES"
+        },
+        {
+          "region_id": "R003",
+          "source_block_ids": [
+            "B0005"
+          ],
+          "bbox": [
+            1448.66,
+            281.3,
+            1532.7,
+            339.9
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "method": "ocr_region",
+          "inverted_for_ocr": false,
+          "native_encoding_issues": [
+            "unexpected_control_characters"
+          ],
+          "output_encoding_issues": [],
+          "needs_visual_check": true,
+          "error": null,
+          "text": "ART"
+        },
+        {
+          "region_id": "R004",
+          "source_block_ids": [
+            "B0006",
+            "B0007",
+            "B0008",
+            "B0009",
+            "B0010"
+          ],
+          "bbox": [
+            1449.84,
+            341.64,
+            1855.2,
+            479.99
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "method": "ocr_region",
+          "inverted_for_ocr": false,
+          "native_encoding_issues": [
+            "suspected_font_mapping",
+            "unexpected_control_characters"
+          ],
+          "output_encoding_issues": [],
+          "needs_visual_check": true,
+          "error": null,
+          "text": "Mỹ thuột là những cdi đẹp từ nghệ thuột, có\nthể là do con người hoặc từ tự nhiên tao nên\nvà có thể nhìn thấy được. Vì thế mà ta còn gọi\nlà “nghệ thuật thị giác”\n\n- hay còn có tên tiếng anh lò “visual art”."
+        },
+        {
+          "region_id": "R005",
+          "source_block_ids": [
+            "B0011"
+          ],
+          "bbox": [
+            1448.66,
+            715.98,
+            1601.84,
+            774.58
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "method": "native",
+          "inverted_for_ocr": false,
+          "native_encoding_issues": [],
+          "output_encoding_issues": [],
+          "needs_visual_check": true,
+          "error": null,
+          "text": "\"n;4M"
+        },
+        {
+          "region_id": "R006",
+          "source_block_ids": [
+            "B0012",
+            "B0013",
+            "B0014",
+            "B0015",
+            "B0016"
+          ],
+          "bbox": [
+            1449.84,
+            776.32,
+            1844.15,
+            914.67
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "method": "ocr_region",
+          "inverted_for_ocr": false,
+          "native_encoding_issues": [
+            "suspected_font_mapping",
+            "unexpected_control_characters"
+          ],
+          "output_encoding_issues": [],
+          "needs_visual_check": true,
+          "error": null,
+          "text": "Thiết kế là liên kết sự sáng tao và đổi mới\nnhằm xây dựng cóc ý tưởng trở thành những\ngiỏi pháp hiệu qué va hếp dẫn người dùng\nhoặc khách hàng.\n\nThiết kế phổi có một mục đích cụ thể nào đó."
+        },
+        {
+          "region_id": "R007",
+          "source_block_ids": [
+            "B0001"
+          ],
+          "bbox": [
+            80.2,
+            985.03,
+            1848.97,
+            1004.19
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "method": "native",
+          "inverted_for_ocr": false,
+          "native_encoding_issues": [],
+          "output_encoding_issues": [],
+          "needs_visual_check": true,
+          "error": null,
+          "text": "EBOOK BY BOLD CREATIVE TRAINING LAB\n3"
+        }
+      ],
+      "warnings": [
+        "Region list is sorted by coordinates, not verified semantic reading order.",
+        "Separate regions/columns have not been concatenated into review chunks.",
+        "Only native text blocks are covered; lettering embedded in pictures or logos may be missing.",
+        "OCR can misread letters and accents even with no encoding issues."
+      ]
+    }
+  ]
+}

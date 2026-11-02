@@ -1,0 +1,54 @@
+{
+  "scope": "PDF_EXTRACTION_PROBE",
+  "document_id": 8,
+  "version_id": 5,
+  "semantic_correctness_verified": false,
+  "database_modified": false,
+  "pages": [
+    {
+      "page_number": 1,
+      "method": "ocr",
+      "needs_visual_check": true,
+      "markdown_error": null,
+      "markdown_encoding_issues": [
+        "unmapped_cid"
+      ],
+      "native_encoding_issues": [
+        "unexpected_control_characters",
+        "suspected_font_mapping"
+      ],
+      "output_encoding_issues": [],
+      "text": "CREATIVE ® a\nTRAINING\nLAB\n\nFUNDAMENTA\nGRAPHIC DES\n\nNEN TANG THIET KE DO HOA í\n\n—\n=\n\nEBOOK BY BOLD CREATIVE TRAINING LAB FACEBOOK.COM/BOLDCREATIVELAB WWW.BOLDCREATIVELAB.COM COPYRIGHT @2024"
+    },
+    {
+      "page_number": 2,
+      "method": "ocr",
+      "needs_visual_check": true,
+      "markdown_error": null,
+      "markdown_encoding_issues": [
+        "unmapped_cid"
+      ],
+      "native_encoding_issues": [
+        "unexpected_control_characters",
+        "suspected_font_mapping"
+      ],
+      "output_encoding_issues": [],
+      "text": "CREATIVE @\nTRAINING\nLAB\n\nGIGI THIEU TONG QUAN CAC NGUYEN LY THIẾT KE\n\n1. Ngành thiết kế đồ hoa là gi? 1. Cân bằng (Balance) 5. Điểm nhến (Emphasis)\n2. Nghệ thuật truyền thông thị giác (Visual Communication) 2. Tỉ lệ (Proportion) 6. Nhịp điệu (Rhythm)\n3. Nghệ thuột giỏi quyết vốn đề (Problem Solver) 3. Tương phan (Contrast) 7. Lặp lại (Repetition)\n\n4. Chính phụ (Hierachy)\n\nCÁC YẾU TỔ CƠ BẢN\nCỦA ĐỒ HỌA MÀU SẮC\n1. Đường nét\n\n2. Hình khối\n3. Không gian\n\n1. Những khới niệm cơ bản của mau sốc\n\n2. Bối cảnh văn hod & tâm lý học màu sắc\n3. Một số đặc tính của màu sắc\n\ntrong thiết kế đồ hoa\n\nEBOOK BY BOLD CREATIVE TRAINING LAB"
+    },
+    {
+      "page_number": 4,
+      "method": "ocr",
+      "needs_visual_check": true,
+      "markdown_error": null,
+      "markdown_encoding_issues": [
+        "unmapped_cid"
+      ],
+      "native_encoding_issues": [
+        "unexpected_control_characters",
+        "suspected_font_mapping"
+      ],
+      "output_encoding_issues": [],
+      "text": "CREATIVE @\nTRAINING\nLAB\n\nMỹ thuột là những cdi đẹp từ nghệ thuột, có\nthể là do con người hoặc từ tự nhiên tao nên\nvà có thể nhìn thấy được. Vì thế mà ta còn gọi\nlà “nghệ thuật thị giác”\n\n- hay còn có tên tiếng anh là “visual art”.\n\nFis bout\n\nfe Thiết kế là liên kết sự sáng tao va đổi mới\n: uy i aa ý nhằm xôy dựng các ý tưởng trổ thành những\nLEAS giải pháp hiệu qué va hấp dẫn người dùng\ny hoặc khách hang.\n\nThiết kế phổi có một mục đích cụ thể nao đó.\n\nEBOOK BY BOLD CREATIVE TRAINING LAB"
+    }
+  ]
+}
