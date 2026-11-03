@@ -4,8 +4,6 @@ PaperLens là ứng dụng review tài liệu PDF bằng AI Agent Harness, chạ
 
 Người dùng upload PDF, chọn các trang cần xem và nhập yêu cầu. Harness điều khiển agent đọc ảnh từng trang, lưu kết quả riêng rồi ghép thành báo cáo. Giao diện hỗ trợ theo dõi thực thi, đối chiếu PDF, đọc báo cáo thành tiếng và duyệt xuất Markdown.
 
-> Báo cáo do AI tạo và chưa được xác minh về nội dung. Trạng thái `COMPLETED` chỉ xác nhận quá trình thực thi hoàn tất.
-
 ## 1. Chức năng
 
 - CRUD hồ sơ tài liệu.
