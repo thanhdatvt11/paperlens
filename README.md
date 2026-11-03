@@ -40,33 +40,147 @@ Luồng hiện tại sử dụng một agent PDF Reviewer. RAG, so sánh paper l
 
 Ollama là phần mềm chạy model. Qwen3-VL là model xử lý văn bản và hình ảnh. Hiyori là nhân vật giao diện, không phải một AI agent khác.
 
-## 3. Kiến trúc
+## 3. Kiến trúc hệ thống
+
+PaperLens gồm ba tiến trình chính: FastAPI, worker Python và Ollama. Trình duyệt giao tiếp với FastAPI để quản lý tài liệu, tạo run và lấy kết quả.
+
+FastAPI và worker sử dụng chung các module nghiệp vụ, repository và database SQLite. Worker chủ động tìm công việc đang chờ; database không tự khởi động hoặc thực thi run.
 
 ```mermaid
 flowchart TD
-    UI["PaperLens UI"]
-    API["FastAPI Controllers và Services"]
-    DB[("SQLite")]
-    PDF[("Kho PDF gốc")]
-    WORKER["Worker"]
-    HARNESS["Harness"]
-    OLLAMA["Ollama chạy Qwen3 VL"]
-    PRESENT["Giọng đọc và Hiyori"]
+    subgraph CLIENT["Trình duyệt"]
+        UI["PaperLens UI"]
+        READER["JavaScript điều khiển đọc"]
+        TTS["Bộ đọc giọng"]
+        SPEAKER["Loa"]
+        HIYORI["Hiyori Live2D"]
 
-    UI -->|"HTTP request"| API
-    API -->|"HTTP response"| UI
+        UI -->|"Văn bản và thao tác"| READER
+        READER -->|"Phát lời"| TTS
+        TTS -->|"Âm thanh"| SPEAKER
+        TTS -->|"Kết thúc hoặc lỗi"| READER
+        READER -->|"Trạng thái đọc và dừng"| HIYORI
+    end
 
-    API <-->|"Đọc và ghi dữ liệu"| DB
-    API -->|"Lưu PDF upload"| PDF
+    subgraph API_PROCESS["Tiến trình FastAPI"]
+        CONTROLLER["REST Controllers"]
+        API_SERVICE["Services quản lý tài liệu và run"]
 
-    WORKER -->|"Tìm và nhận run QUEUED"| DB
-    WORKER --> HARNESS
-    HARNESS -->|"Đọc nguồn"| PDF
-    HARNESS <-->|"Prompt, ảnh và JSON"| OLLAMA
-    HARNESS -->|"Event và kết quả qua service"| DB
+        CONTROLLER --> API_SERVICE
+    end
 
-    UI -->|"Văn bản và trạng thái đọc"| PRESENT
+    subgraph WORKER_PROCESS["Tiến trình worker"]
+        WORKER["Tìm run QUEUED"]
+        RUN_SERVICE["Service thực thi run"]
+        MEMORY["Memory Loader"]
+        LOOP["Harness Loop"]
+        CONTEXT["Context Builder"]
+        GATE["Output Gate"]
+        PERMISSION["Tool Permission"]
+        TOOLS["PDF Tools"]
+        ADAPTER["Ollama Adapter"]
+
+        WORKER -->|"Nhận công việc"| RUN_SERVICE
+        RUN_SERVICE -->|"Nạp lịch sử trước"| MEMORY
+        MEMORY -->|"Trả memory_context"| RUN_SERVICE
+        RUN_SERVICE -->|"Sau đó gọi harness"| LOOP
+
+        LOOP -->|"Nhiệm vụ và trạng thái hiện tại"| CONTEXT
+        CONTEXT -->|"Prompt đã chuẩn bị"| LOOP
+
+        LOOP -->|"Prompt, schema, ảnh và giới hạn"| ADAPTER
+        ADAPTER -->|"Kết quả model"| GATE
+        GATE -->|"Action hợp lệ hoặc phản hồi lỗi"| LOOP
+
+        LOOP -->|"Kiểm tra yêu cầu tool"| PERMISSION
+        PERMISSION -->|"Cho phép"| TOOLS
+        PERMISSION -->|"Từ chối"| LOOP
+        TOOLS -->|"Ảnh và metadata"| LOOP
+
+        LOOP -->|"Event và kết quả"| RUN_SERVICE
+    end
+
+    subgraph DATA_ACCESS["Các module truy cập dữ liệu dùng chung"]
+        REPOSITORY["Repositories"]
+        PDF_SERVICE["Dịch vụ lưu và đọc PDF"]
+    end
+
+    subgraph STORAGE["Lưu trữ"]
+        DB[("SQLite")]
+        PDF_STORE[("Kho PDF gốc")]
+    end
+
+    subgraph MODEL_PROCESS["Dịch vụ model"]
+        OLLAMA["Ollama"]
+        QWEN["Qwen3 VL 2B"]
+
+        OLLAMA -->|"Chạy suy luận"| QWEN
+        QWEN -->|"Nội dung sinh"| OLLAMA
+    end
+
+    UI -->|"HTTP request"| CONTROLLER
+    CONTROLLER -->|"HTTP response: JSON hoặc file"| UI
+
+    API_SERVICE --> REPOSITORY
+    API_SERVICE --> PDF_SERVICE
+
+    WORKER -->|"Tìm công việc"| REPOSITORY
+    RUN_SERVICE -->|"Đọc snapshot và lưu tiến trình"| REPOSITORY
+    MEMORY -->|"Truy vấn lịch sử run phù hợp"| DB
+    REPOSITORY <-->|"Đọc và ghi"| DB
+
+    TOOLS -->|"Mở và kiểm tra nguồn"| PDF_SERVICE
+    PDF_SERVICE <-->|"Lưu hoặc đọc file"| PDF_STORE
+
+    ADAPTER -->|"HTTP request đến API chat"| OLLAMA
+    OLLAMA -->|"Nội dung và lý do kết thúc"| ADAPTER
 ```
+
+### Trách nhiệm của các thành phần
+
+| Thành phần | Trách nhiệm |
+|---|---|
+| PaperLens UI | Nhập yêu cầu, upload PDF, theo dõi run và hiển thị báo cáo |
+| REST Controllers | Nhận HTTP request và trả HTTP response |
+| Services | Kiểm tra nghiệp vụ, tạo snapshot và phối hợp xử lý |
+| Repositories | Đọc và ghi dữ liệu bằng SQLAlchemy |
+| SQLite | Lưu tài liệu, phiên bản, cấu hình agent, run, event và báo cáo |
+| Kho PDF | Giữ nội dung file PDF gốc |
+| Worker | Tìm và nhận run đang ở trạng thái `QUEUED` |
+| Memory Loader | Lấy lịch sử yêu cầu phù hợp từ các run trước |
+| Harness Loop | Điều phối từng trang, lượt gọi model và giới hạn thực thi |
+| Context Builder | Chuẩn bị đầu vào trước mỗi lần gọi model |
+| Output Gate | Kiểm tra định dạng, schema, pha và tham chiếu trang |
+| Tool Permission | Kiểm tra quyền trước khi thực thi tool |
+| PDF Tools | Render trang PDF thành ảnh |
+| Ollama Adapter | Chuyển đổi dữ liệu và giao tiếp HTTP với Ollama |
+| Ollama | Nạp và chạy model Qwen |
+| Qwen3 VL 2B | Xử lý prompt, ảnh và sinh hành động hoặc báo cáo |
+| Bộ đọc giọng và Hiyori | Trình bày báo cáo bằng âm thanh và nhân vật 2D |
+
+### Thứ tự thực thi
+
+1. UI gửi yêu cầu tạo run tới FastAPI.
+2. Service kiểm tra dữ liệu, chuẩn bị snapshot và lưu run `QUEUED`.
+3. Worker tìm và nhận run, chuyển trạng thái sang `RUNNING`.
+4. Service thực thi đọc snapshot và nạp memory nếu được bật.
+5. Khi nạp memory xong, service mới gọi harness loop.
+6. Loop chuẩn bị context, gọi model và kiểm tra đầu ra.
+7. Nếu model yêu cầu tool hợp lệ, harness kiểm tra quyền rồi render ảnh trang.
+8. Model nhận ảnh và viết báo cáo riêng của trang hiện tại.
+9. Harness lưu báo cáo trang trước khi chuyển sang trang tiếp theo.
+10. Python ghép báo cáo; service lưu kết quả và trạng thái cuối.
+11. UI lấy trạng thái và kết quả qua API.
+
+Các khối trong sơ đồ biểu diễn trách nhiệm và kết nối, không có nghĩa tất cả đều chạy song song. Trong một run hiện tại, memory được nạp trước loop; context được chuẩn bị trước từng lượt gọi model.
+
+### Agent và phần trình bày báo cáo
+
+PDF Reviewer là Qwen kết hợp vai trò, instruction, cấu hình và giao thức hành động JSON. Harness kiểm soát cách agent sử dụng dữ liệu và công cụ.
+
+Bộ đọc giọng sử dụng văn bản báo cáo đã có. JavaScript điều khiển miệng Hiyori theo trạng thái đọc hoặc dừng; chưa phân tích âm thanh để khớp miệng.
+
+Permission xuất báo cáo được xử lý riêng ở service xuất: người dùng xem trước và duyệt hoặc từ chối, sau đó backend kiểm tra hash và ghi event.
 
 FastAPI và worker là hai tiến trình riêng. Worker chủ động truy vấn hàng chờ trong SQLite; SQLite không tự thực thi run.
 
